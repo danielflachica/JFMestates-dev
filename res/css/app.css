@@ -1,0 +1,62 @@
+html, body {
+	/*font-family: 'Raleway', sans-serif;*/
+	/*font-family: 'Montserrat', sans-serif;*/
+	/*font-family: 'Titillium Web', sans-serif;*/
+	font-family: 'Exo', sans-serif;
+}
+
+.home-bg {
+	background: url("../img/bg5.jpg") no-repeat fixed;
+	background-size: cover;
+	min-height: 100vh;
+	margin-bottom: 0px;
+	/* -webkit-filter: blur(10px); */ /* Safari 6.0 - 9.0 */
+    /* filter: blur(10px); */
+}
+
+.nav-home {
+	min-height: 130px !important;
+	height: auto;
+	/*background-color: rgba(178,223,219,0.6) !important;*/
+	background-color: rgba(255,255,255,0.7) !important;
+	/*background: none !important;*/
+}
+
+.nav-home li {
+	font-size: 24px;
+}
+
+#scroll-top-btn {
+	display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 50px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+   
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+}
+
+.cursor {
+	cursor: pointer;
+}
+
+.jfm-footer a{
+	color: #B2EBF2;
+}
+.jfm-footer a:hover{
+	color: #B2EBF2;
+	text-decoration: underline;
+}
+.jfm-footer-head a{
+	color: #fff;
+}
+
+.footer-link {
+	cursor: pointer;
+}
+.footer-link:hover {
+	text-decoration: underline;
+}
