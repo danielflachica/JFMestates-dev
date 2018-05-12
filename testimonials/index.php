@@ -203,7 +203,14 @@
 											Full Name
 											<span class="text-danger">*</span>
 										</label>
-										<input type="text" class="form-control" id="name" aria-describedby="name" placeholder="e.g. John Doe">
+										<div class="input-group mb-3">
+											<div class="input-group-prepend">
+												<span class="input-group-text" id="name-addon">
+													<i class="fa fa-user"></i>
+												</span>
+											</div>
+											<input type="text" class="form-control" id="name" aria-describedby="name-addon" placeholder="e.g. John Doe">
+										</div>
 										<small id="emailHelp" class="form-text">If you prefer to keep your information private, enter <i>Anonymous</i> in place of your name.</small>
 									</div>
 
@@ -212,7 +219,14 @@
 											Location
 											<span class="text-danger">*</span>
 										</label>
-										<input type="text" class="form-control" id="location" placeholder="Where did you buy from us?">
+										<div class="input-group mb-3">
+											<div class="input-group-prepend">
+												<span class="input-group-text" id="location-addon">
+													&nbsp;<i class="fa fa-map-marker"></i>
+												</span>
+											</div>
+											<input type="text" class="form-control" id="location" aria-describedby="location-addon" placeholder="Where did you buy from us?">
+										</div>
 									</div>
 									
 									<label for="comments">
