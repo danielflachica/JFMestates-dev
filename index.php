@@ -33,19 +33,26 @@
 
 	<div style="height:800px;background-color:#fff;" class="container">This div is only here to enable scrolling (height = 800 pixels).</div>
 
-	<?php include 'res/templates/footer.php'; ?>
+	<!-- BF HOMES LOCATION MAP -->
+	<div id="googleMap" class="bg-light mt-0" style="height:550px; width: 100%"></div>
+
+	<?php include 'res/templates/footer-home.php'; ?>
 
 	<button class="btn btn-outline-info bg-light shadow" id="scroll-top-btn" onclick="topFunction()" data-toggle="tooltip" data-placement="left" title="Back to Top" style="height: 70px; width: 70px">
 		<!-- <img src="res/img/up.png" height="18px" width="25px"> -->
 		<i class="fa fa-angle-double-up fa-2x"></i>
 	</button>
-</body>
 
-<script src="res/js/home-nav.js"></script>
-<script src="res/js/scroll-top.js"></script>
-<script>
-$(document).ready(function(){
-    $('[data-toggle="tooltip"]').tooltip(); 
-});
-</script>
+	<!-- JavaScript -->
+	<script src="res/js/google-maps-home.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZW6FD7qMaMzol6g3ESy2RtmyRgnXS9Ws&callback=homeMap"></script>
+
+	<script src="res/js/home-nav.js"></script>
+	<script src="res/js/scroll-top.js"></script>
+	<script>
+	$(document).ready(function(){
+	    $('[data-toggle="tooltip"]').tooltip(); 
+	});
+	</script>
+</body>
 </html>

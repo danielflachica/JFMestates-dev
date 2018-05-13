@@ -23,16 +23,16 @@
 			<div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
 				<ul class="navbar-nav">
 					<li class="nav-item px-1">
-						<a class="nav-link <?php if($highlight=='properties') echo 'active'; ?>" href="/jfmestates-dev/properties">Properties</a>
+						<a class="nav-link <?php if($highlight=='properties' && $highlight!='legal') echo 'active'; ?>" href="/jfmestates-dev/listings">Listings</a>
 					</li>
 					<li class="nav-item px-1">
-						<a class="nav-link <?php if($highlight=='about') echo 'active'; ?>" href="/jfmestates-dev/about">About</a>
+						<a class="nav-link <?php if($highlight=='about' && $highlight!='legal') echo 'active'; ?>" href="/jfmestates-dev/about">About</a>
 					</li>
 					<li class="nav-item px-1">
-						<a class="nav-link <?php if($highlight=='testimonials') echo 'active'; ?>" href="/jfmestates-dev/testimonials">Testimonials</a>
+						<a class="nav-link <?php if($highlight=='testimonials' && $highlight!='legal') echo 'active'; ?>" href="/jfmestates-dev/testimonials">Testimonials</a>
 					</li>   
 					<li class="nav-item px-1">
-						<a class="nav-link <?php if($highlight=='contact') echo 'active'; ?>" href="/jfmestates-dev/contact">Contact Us</a>
+						<a class="nav-link <?php if($highlight=='contact' && $highlight!='legal') echo 'active'; ?>" href="/jfmestates-dev/contact">Contact Us</a>
 					</li>    
 				</ul>
 			</div>  

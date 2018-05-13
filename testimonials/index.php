@@ -237,7 +237,10 @@
 
 									<br>
 
-									<button type="submit" class="btn btn-primary float-right"><strong>&nbsp;Submit&nbsp;</strong></button>
+									<button type="submit" class="btn btn-primary float-right">
+										&nbsp;<i class="fa fa-send"></i>&nbsp;
+										&nbsp;Submit&nbsp;
+									</button>
 								</form>
 							</div>
 

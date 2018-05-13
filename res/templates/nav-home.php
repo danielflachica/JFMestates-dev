@@ -15,7 +15,7 @@
 			<div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
 				<ul class="navbar-nav">
 					<li class="nav-item px-1">
-						<a class="nav-link" href="/jfmestates-dev/properties">Properties</a>
+						<a class="nav-link" href="/jfmestates-dev/listings">Listings</a>
 					</li>
 					<li class="nav-item px-1">
 						<a class="nav-link" href="/jfmestates-dev/about">About</a>
@@ -48,7 +48,7 @@
 			<div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar2">
 				<ul class="navbar-nav">
 					<li class="nav-item px-1">
-						<a class="nav-link" href="/jfmestates-dev/properties">Properties</a>
+						<a class="nav-link" href="/jfmestates-dev/listings">Listings</a>
 					</li>
 					<li class="nav-item px-1">
 						<a class="nav-link" href="/jfmestates-dev/about">About</a>

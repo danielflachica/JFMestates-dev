@@ -1,4 +1,4 @@
-<?php include '../modals/acknowledgements.php'; ?>
+<?php include '../../modals/acknowledgements.php'; ?>
 
 <!--Footer-->
 <footer class="page-footer font-small unique-color-dark bg-dark pt-0">
