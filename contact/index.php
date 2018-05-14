@@ -17,7 +17,7 @@
 		<hr><br>
 
 		<div class="row">
-			<div class="col-md-6 pr-4">	
+			<div class="col-md-6 px-4">	
 				<h3>We'd love to hear from you.</h3>
 				<p>Are you looking to buy, sell, or rent property? Send us a message below. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 
@@ -102,7 +102,7 @@
 				</div>
 			</div>
 
-			<div class="col-md-6 pl-4">
+			<div class="col-md-6 px-4">
 				<h3>Reach us any way you want.</h3>
 
 				<div class="jumbotron px-5 py-4 mt-4">
