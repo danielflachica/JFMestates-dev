@@ -6,7 +6,7 @@
 	$highlight = $_SESSION['active_page'];
 ?>
 
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top" id="nav-main">
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top shadow" id="nav-main">
 		<div class="container">
 			<!-- Brand Logos -->
 			<a class="navbar-brand" href="/jfmestates-dev">

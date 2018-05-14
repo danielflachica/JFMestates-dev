@@ -31,7 +31,7 @@
 		</div>
 	</nav>
 
-	<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" id="nav-main" style="opacity: 0; visibility: hidden !important;">
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top shadow" id="nav-main" style="opacity: 0; visibility: hidden !important;">
 		<div class="container">
 			<!-- Brand Logos -->
 			<a class="navbar-brand" href="/jfmestates-dev">
