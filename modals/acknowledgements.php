@@ -12,6 +12,7 @@
 			<div class="modal-body">
 				<div class="pre-scrollable p-2">
 					<h3>Bootstrap 4</h3>
+					<h3>Google Fonts</h3>
 					<h3>Font Awesome</h3>
 					<h3>Intel-Tel input (GitHub)</h3>
 					<div class="alert alert-danger">***Make these lists, with links</div>
