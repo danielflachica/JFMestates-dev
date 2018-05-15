@@ -20,6 +20,14 @@
 		  height: 170px;
 		  width: 150px;
 		}
+		.slider-img-group > .row > .col-sm-4 > img, video {
+			opacity: 0.6;
+			/*height: 120px !important;
+			width: 190px !important*/
+		}
+		.slider-img-group > .row > .col-sm-4 > img:hover, video:hover {
+			opacity: 1;
+		}
 		.slider-img-group > .row > .col-sm-4:first-child {
 		  padding-left:0px !important;
 		  /*background: green;*/
@@ -89,13 +97,13 @@
 						<!-- Images -->
 						<div class="carousel-inner" style="cursor: pointer" role="listbox">
 							<div class="carousel-item active" data-slide-number="0">
-								<img class="d-block img-fluid"  style="/*width: 100%;*/height:520px" src="../../res/img/bg1.jpg" alt="First slide" data-toggle="modal" data-target="#image-1">
+								<img class="d-block img-fluid"  style="width: 100%;height:520px" src="../../res/img/h1.jpg" alt="First slide" data-toggle="modal" data-target="#image-1">
 							</div>
 							<div class="carousel-item" data-slide-number="1">
-								<img class="d-block img-fluid"  style="/*width: 100%;*/height:520px" src="../../res/img/bg2.jpg" alt="Second slide">
+								<img class="d-block img-fluid"  style="width: 100%;height:520px" src="../../res/img/h2.jpg" alt="Second slide">
 							</div>
 							<div class="carousel-item" data-slide-number="2">
-								<img class="d-block img-fluid"  style="/*width: 100%;*/height:520px" src="../../res/img/bg3.jpg" alt="Third slide">
+								<img class="d-block img-fluid"  style="width: 100%;height:520px" src="../../res/img/h3.jpg" alt="Third slide">
 							</div>
 							<div class="carousel-item" data-slide-number="3">
 								<video class="d-block" style="/*width: 100%;*/height:520px" controls>
@@ -107,13 +115,13 @@
 						<div class="container slider-img-group" style="background-color: #121212">
 						    <div class="row text-center flex-nowrap text-light">
 						        <div data-target="#carouselExampleControls" data-slide-to="0" style="cursor: pointer" class="col-sm-4 px-1 mt-3 mb-0 active">
-						        	<img src="../../res/img/bg1.jpg" style="width: 100%; height: 100%">
+						        	<img src="../../res/img/h1.jpg" style="width: 100%; height: 100%">
 						        </div>
 						        <div data-target="#carouselExampleControls" data-slide-to="1" style="cursor: pointer" class="col-sm-4 px-1 mt-3 mb-0">
-						        	<img src="../../res/img/bg2.jpg" style="width: 100%; height: 100%">
+						        	<img src="../../res/img/h2.jpg" style="width: 100%; height: 100%">
 						        </div>
 						        <div data-target="#carouselExampleControls" data-slide-to="2" style="cursor: pointer" class="col-sm-4 px-1 mt-3 mb-0">
-						        	<img src="../../res/img/bg3.jpg" style="width: 100%; height: 100%">
+						        	<img src="../../res/img/h3.jpg" style="width: 100%; height: 100%">
 						        </div>
 						        <div data-target="#carouselExampleControls" data-slide-to="3" style="cursor: pointer" class="col-sm-4 px-1 mt-">
 							        <video style="width: 100%; height: 100%">
