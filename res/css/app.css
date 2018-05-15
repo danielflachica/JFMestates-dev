@@ -60,3 +60,8 @@ html, body {
 .footer-link:hover {
 	text-decoration: underline;
 }
+
+
+.listing-img {
+	width: 100%;
+}

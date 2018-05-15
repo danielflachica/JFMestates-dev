@@ -5,7 +5,7 @@
 			<!-- Modal Header -->
 			<div class="modal-header border-0 bg-info text-light" style="padding-bottom: 0px;">
 				<h3>This site makes use of the following external libraries</h3>
-				<button type="button" class="close" data-dismiss="modal">&times;</button>
+				<button type="button" class="close text-white" data-dismiss="modal">&times;</button>
 			</div>
 
 			<!-- Modal body -->

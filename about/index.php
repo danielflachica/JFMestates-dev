@@ -13,6 +13,7 @@
 
 	<div class="container">
 		<h1>About Us Page</h1>
+		
 	</div>
 	
 	<?php include '../res/templates/footer.php'; ?>
