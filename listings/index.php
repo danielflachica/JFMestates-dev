@@ -37,7 +37,7 @@
 				<div class="input-group input-group-lg mb-0 home-search-dekstop">
 					<div class="input-group-prepend">
 						<span class="input-group-text py-0 px-2 prop-dropdown">
-							<select class="form-control text-info font-weight-bold" style="background: #e9ecef; border: none;" id="sel1">
+							<select class="form-control text-info font-weight-bold" style="width: 100%;background: #e9ecef; border: none;" id="sel1">
 								<option selected disabled>OFFER TYPE</option>
 								<option disabled>----------------------</option>
 								<option value="buy">Buy</option>
@@ -47,7 +47,7 @@
 						</span>
 
 						<span class="input-group-text py-0 px-2 prop-dropdown">
-							<select class="form-control text-info font-weight-bold" style="background: #e9ecef; border: none;" id="sel1">
+							<select class="form-control text-info font-weight-bold" style="width: 100%;background: #e9ecef; border: none;" id="sel1">
 								<option selected disabled>PROPERTY TYPE</option>
 								<option disabled>----------------------</option>
 								<option value="residencial">Residencial</option>
@@ -57,7 +57,7 @@
 						</span>
 
 						<span class="input-group-text py-0 px-2 prop-dropdown">
-							<select class="form-control text-info font-weight-bold" style="background: #e9ecef; border: none;" id="sel1">
+							<select class="form-control text-info font-weight-bold" style="width: 100%;background: #e9ecef; border: none;" id="sel1">
 								<option selected disabled>PRICE RANGE</option>
 								<option disabled>----------------------</option>
 								<option value="">Below &#8369; 20,000</option>

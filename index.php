@@ -57,7 +57,9 @@
 								<input type="text" class="form-control text-uppercase prop-search" placeholder="Enter a location" aria-label="Search for Properties" aria-describedby="searchAddon">
 
 								<div class="input-group-append">
-									<button type="submit" class="btn btn-info">Search</button>
+									<button type="submit" class="btn btn-info">
+										<i class="fa fa-search pr-3"></i>Search
+									</button>
 								</div>
 							</div>
 						</form>
@@ -87,7 +89,9 @@
 								<input type="text" class="form-control text-uppercase prop-search" placeholder="Enter a location" aria-label="Search for Properties" aria-describedby="searchAddon">
 
 								<div class="input-group-append">
-									<button type="submit" class="btn btn-info">Search</button>
+									<button type="submit" class="btn btn-info">
+										<i class="fa fa-search pr-3"></i>Search
+									</button>
 								</div>
 							</div>
 						</form>
@@ -117,7 +121,9 @@
 								<input type="text" class="form-control text-uppercase prop-search" placeholder="Enter a location" aria-label="Search for Properties" aria-describedby="searchAddon">
 
 								<div class="input-group-append">
-									<button type="submit" class="btn btn-info">Search</button>
+									<button type="submit" class="btn btn-info">
+										<i class="fa fa-search pr-3"></i>Search
+									</button>
 								</div>
 							</div>
 						</form>
