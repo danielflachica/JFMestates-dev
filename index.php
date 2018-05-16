@@ -27,49 +27,34 @@
 						<a class="nav-link text-info " data-toggle="tab" href="#rent"><h4 class="pt-2">Rent</h4></a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link text-info " data-toggle="tab" href="#both"><h4 class="pt-2">Buy or Rent</h4></a>
+						<a class="nav-link text-info " data-toggle="tab" href="#joint-venture"><h4 class="pt-2">Joint Venture</h4></a>
 					</li>
 				</ul>
 
 				<!-- Tab panes -->
 				<div class="tab-content bg-midnight shadow-lg pt-0">
 					<div class="tab-pane container active p-3" id="buy">
-						<form method="POST" action="" class="shadow-sm">
+						<form method="POST" action="/jfmestates-dev/listings" class="shadow-sm">
 							<input type="text" value="buy" style="display: none">
 
-							<div class="input-group input-group-lg mb-0">
-								<!-- <div class="input-group-prepend">
-									<div class="form-group">
-										<select class="form-control" id="sel1">
-											<option>1</option>
-											<option>2</option>
-											<option>3</option>
-											<option>4</option>
-										</select>
-									</div>
-								</div> -->
-
-								<!-- <div class="input-group-prepend bg-light py-2 px-1">
-									<div class="col-md-12">
-										@
-									</div>
-
-									<div class="col-md-12"><i class="fa fa-map-marker"></i></div>
-								</div> -->
-
-										<select class="form-control rounded-right" id="sel1">
-											<option>Residencial</option>
-											<option>Commercial</option>
-											<option>Industrial</option>
-										</select>
-
+							<div class="input-group input-group-lg mb-0 home-search-dekstop">
 								<div class="input-group-prepend">
-									<span class="input-group-text">
+									<span class="input-group-text py-0 px-2 prop-dropdown">
+										<select class="form-control" style="background: #e9ecef; border: none;" id="sel1">
+											<option selected disabled>PROPERTY TYPE</option>
+											<option disabled>----------------------</option>
+											<option value="residencial">Residencial</option>
+											<option value="commercial">Commercial</option>
+											<option value="industrial">Industrial</option>
+										</select>
+									</span>
+
+									<span class="input-group-text bg-white pl-4 pr-1" style="border:none;">
 										<i class="fa fa-map-marker"></i>
 									</span>
 								</div>
 
-								<input type="text" class="form-control" placeholder="Enter a location" aria-label="Search for Properties" aria-describedby="searchAddon">
+								<input type="text" class="form-control text-uppercase prop-search" placeholder="Enter a location" aria-label="Search for Properties" aria-describedby="searchAddon">
 
 								<div class="input-group-append">
 									<button type="submit" class="btn btn-info">Search</button>
@@ -79,10 +64,28 @@
 					</div>
 
 					<div class="tab-pane container p-3" id="rent">
-						<form method="POST" action="" class="shadow-sm">
+						<form method="POST" action="/jfmestates-dev/listings" class="shadow-sm">
 							<input type="text" value="rent" style="display: none">
+							
 							<div class="input-group input-group-lg mb-0">
-								<input type="text" class="form-control" placeholder="Find the perfect property for you." aria-label="Search for Properties" aria-describedby="searchAddon">
+								<div class="input-group-prepend">
+									<span class="input-group-text py-0 px-2 prop-dropdown">
+										<select class="form-control" style="background: #e9ecef; border: none;" id="sel1">
+											<option selected disabled>PROPERTY TYPE</option>
+											<option disabled>----------------------</option>
+											<option value="residencial">Residencial</option>
+											<option value="commercial">Commercial</option>
+											<option value="industrial">Industrial</option>
+										</select>
+									</span>
+
+									<span class="input-group-text bg-white pl-4 pr-1" style="border:none;">
+										<i class="fa fa-map-marker"></i>
+									</span>
+								</div>
+
+								<input type="text" class="form-control text-uppercase prop-search" placeholder="Enter a location" aria-label="Search for Properties" aria-describedby="searchAddon">
+
 								<div class="input-group-append">
 									<button type="submit" class="btn btn-info">Search</button>
 								</div>
@@ -90,11 +93,29 @@
 						</form>
 					</div>
 
-					<div class="tab-pane container p-3" id="both">
-						<form method="POST" action="" class="shadow-sm">
+					<div class="tab-pane container p-3" id="joint-venture">
+						<form method="POST" action="/jfmestates-dev/listings" class="shadow-sm">
 							<input type="text" value="both" style="display: none">
+							
 							<div class="input-group input-group-lg mb-0">
-								<input type="text" class="form-control" placeholder="Find the perfect property for you." aria-label="Search for Properties" aria-describedby="searchAddon">
+								<div class="input-group-prepend">
+									<span class="input-group-text py-0 px-2 prop-dropdown">
+										<select class="form-control" style="background: #e9ecef; border: none;" id="sel1">
+											<option selected disabled>PROPERTY TYPE</option>
+											<option disabled>----------------------</option>
+											<option value="residencial">Residencial</option>
+											<option value="commercial">Commercial</option>
+											<option value="industrial">Industrial</option>
+										</select>
+									</span>
+
+									<span class="input-group-text bg-white pl-4 pr-1" style="border:none;">
+										<i class="fa fa-map-marker"></i>
+									</span>
+								</div>
+
+								<input type="text" class="form-control text-uppercase prop-search" placeholder="Enter a location" aria-label="Search for Properties" aria-describedby="searchAddon">
+
 								<div class="input-group-append">
 									<button type="submit" class="btn btn-info">Search</button>
 								</div>
