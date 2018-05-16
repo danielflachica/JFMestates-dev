@@ -189,7 +189,7 @@
 					</a>
 				</div>
 			</div>
-			<div id="submitTestimonial" class="collapse bg-secondary text-light" data-parent="#accordion">							
+			<div id="submitTestimonial" class="collapse bg-midnight text-light" data-parent="#accordion">							
 				<div class="container">
 					<div class="card-body">
 						<br>

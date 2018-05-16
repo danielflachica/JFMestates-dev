@@ -32,6 +32,9 @@
 						<a class="nav-link <?php if($highlight=='testimonials' && $highlight!='legal') echo 'active'; ?>" href="/jfmestates-dev/testimonials">Testimonials</a>
 					</li>   
 					<li class="nav-item px-1">
+						<a class="nav-link <?php if($highlight=='bulletin' && $highlight!='legal') echo 'active'; ?>" href="/jfmestates-dev/bulletin">Bulletin</a>
+					</li>   
+					<li class="nav-item px-1">
 						<a class="nav-link <?php if($highlight=='contact' && $highlight!='legal') echo 'active'; ?>" href="/jfmestates-dev/contact">Contact Us</a>
 					</li>    
 				</ul>

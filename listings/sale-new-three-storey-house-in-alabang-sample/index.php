@@ -28,6 +28,12 @@
 		.slider-img-group > .row > .col-sm-4 > img:hover, video:hover {
 			opacity: 1;
 		}
+		/*.slider-img-group > .row > .col-sm-4 > li.active img, video {
+			opacity: 1;
+		}*/
+		.slider-img-group > .row > .active img, video {
+			opacity: 1;
+		}
 		.slider-img-group > .row > .col-sm-4:first-child {
 		  padding-left:0px !important;
 		  /*background: green;*/
@@ -61,14 +67,10 @@
 			Back to Listings
 		</a>
 		<h1><span class="text-info font-weight-bold">FOR SALE:</span> New Three-Storey House in Alabang [Sample]</h1>
-		<!-- <hr><br> -->
-		<!-- <div class="row mt-5">
-			
-		</div> -->
 	</div>
 	
 	<!-- Carousel -->
-	<div class="container-fluid mt-4" style="background: #263238";>
+	<div class="container-fluid mt-4 bg-midnight">
 		<div class="container">
 			<div class="row px-3">
 				<div class="col-md-1">
@@ -106,26 +108,39 @@
 								<img class="d-block img-fluid"  style="width: 100%;height:520px" src="../../res/img/h3.jpg" alt="Third slide">
 							</div>
 							<div class="carousel-item" data-slide-number="3">
-								<video class="d-block" style="/*width: 100%;*/height:520px" controls>
+								<img class="d-block img-fluid"  style="width: 100%;height:520px" src="../../res/img/h4.jpg" alt="Fifth slide">
+							</div>
+							<div class="carousel-item" data-slide-number="4">
+								<!-- <video class="d-block" style="/*width: 100%;*/height:520px" controls>
 									<source src="../../res/vids/Avengers.mp4" type="video/mp4">
+								</video> -->
+								<video class="d-block" style="/*width: 100%;*/height:520px" controls>
+									<source src="../../res/vids/housetour.mp4" type="video/mp4">
 								</video>
 							</div>
 						</div>
 
+						<!-- INDICATORS -->
 						<div class="container slider-img-group" style="background-color: #121212">
 						    <div class="row text-center flex-nowrap text-light">
-						        <div data-target="#carouselExampleControls" data-slide-to="0" style="cursor: pointer" class="col-sm-4 px-1 mt-3 mb-0 active">
-						        	<img src="../../res/img/h1.jpg" style="width: 100%; height: 100%">
+						        <div data-target="#carouselExampleControls" data-slide-to="0" style="cursor: pointer" class="col-sm-4 px-1 mt-3 mb-0 ">
+						        	<img src="../../res/img/h1.jpg" class="img-fluid" style="width: 100%; height: 100%">
 						        </div>
 						        <div data-target="#carouselExampleControls" data-slide-to="1" style="cursor: pointer" class="col-sm-4 px-1 mt-3 mb-0">
-						        	<img src="../../res/img/h2.jpg" style="width: 100%; height: 100%">
+						        	<img src="../../res/img/h2.jpg" class="img-fluid" style="width: 100%; height: 100%">
 						        </div>
 						        <div data-target="#carouselExampleControls" data-slide-to="2" style="cursor: pointer" class="col-sm-4 px-1 mt-3 mb-0">
-						        	<img src="../../res/img/h3.jpg" style="width: 100%; height: 100%">
+						        	<img src="../../res/img/h3.jpg" class="img-fluid" style="width: 100%; height: 100%">
 						        </div>
-						        <div data-target="#carouselExampleControls" data-slide-to="3" style="cursor: pointer" class="col-sm-4 px-1 mt-">
-							        <video style="width: 100%; height: 100%">
+						        <div data-target="#carouselExampleControls" data-slide-to="3" style="cursor: pointer" class="col-sm-4 px-1 mt-3 mb-0">
+						        	<img src="../../res/img/h4.jpg" class="img-fluid" style="width: 100%; height: 100%">
+						        </div>
+						        <div data-target="#carouselExampleControls" data-slide-to="4" style="cursor: pointer" class="col-sm-4 px-1 mt-3">
+							        <!-- <video style="width: 100%; height: 100%">
 										<source src="../../res/vids/Avengers.mp4" type="video/mp4">
+									</video> -->
+									<video style="width: 100%; height: 97%">
+										<source src="../../res/vids/housetour.mp4" type="video/mp4">
 									</video>
 						        </div>
 						    </div>
@@ -143,7 +158,9 @@
 	</div>
 
 	<!-- Property Details -->
-	<div style="height: 400px;"></div>
+	<div style="height: 400px;">
+		
+	</div>
 
 	<!-- Location Map -->
 	<span class="badge badge-secondary p-2 pt-3 mb-0" style="width: 100%; border-radius: 0">

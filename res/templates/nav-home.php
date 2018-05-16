@@ -24,6 +24,9 @@
 						<a class="nav-link" href="/jfmestates-dev/testimonials">Testimonials</a>
 					</li>   
 					<li class="nav-item px-1">
+						<a class="nav-link" href="/jfmestates-dev/bulletin">Bulletin</a>
+					</li>   
+					<li class="nav-item px-1">
 						<a class="nav-link" href="/jfmestates-dev/contact">Contact Us</a>
 					</li>    
 				</ul>
@@ -55,6 +58,9 @@
 					</li>
 					<li class="nav-item px-1">
 						<a class="nav-link" href="/jfmestates-dev/testimonials">Testimonials</a>
+					</li>   
+					<li class="nav-item px-1">
+						<a class="nav-link" href="/jfmestates-dev/bulletin">Bulletin</a>
 					</li>   
 					<li class="nav-item px-1">
 						<a class="nav-link" href="/jfmestates-dev/contact">Contact Us</a>
