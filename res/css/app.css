@@ -136,6 +136,14 @@ html, body {
 	width: 100%;
 }
 
+.listing-pagination>li>a,
+.listing-pagination>li>span {
+  /*color*/
+}
+.listing-pagination>li.active {
+  background: purple;
+  color: #fff;
+}
 /*.btn {
 	border: 2px solid red;
 }*/

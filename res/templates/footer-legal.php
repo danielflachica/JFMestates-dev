@@ -17,20 +17,20 @@
                 <!--Grid column-->
                 <div class="col-md-6 col-lg-7 text-center text-md-right text-light">
                     <!--Facebook-->
-                    <a class="fb-ic" href="https://www.facebook.com">
-                        <i class="fa fa-facebook white-text mr-lg-4"> </i>
+                    <a class="fb-ic ml-lg-4 mx-xs-3" data-toggle="tooltip" data-placement="top" title="Facebook" href="https://www.facebook.com">
+                        <i class="fa fa-facebook white-text"> </i>
                     </a>
                     <!--Google +-->
-                    <a class="gplus-ic" href="https://www.google.com">
-                        <i class="fa fa-google-plus white-text mr-lg-4"> </i>
+                    <a class="gplus-ic ml-lg-4 mx-xs-3" data-toggle="tooltip" data-placement="top" title="Google +" href="https://www.google.com">
+                        <i class="fa fa-google-plus white-text"> </i>
                     </a>
                     <!--Linkedin-->
-                    <a class="li-ic" href="https://www.linkedin.com">
-                        <i class="fa fa-linkedin white-text mr-lg-4"> </i>
+                    <a class="li-ic ml-lg-4 mx-xs-3" data-toggle="tooltip" data-placement="top" title="LinkedIn" href="https://www.linkedin.com">
+                        <i class="fa fa-linkedin white-text"> </i>
                     </a>
                     <!--Instagram-->
-                    <a class="ins-ic" href="https://www.instagram.com">
-                        <i class="fa fa-instagram white-text mr-lg-4"> </i>
+                    <a class="ins-ic ml-lg-4 mx-xs-3" data-toggle="tooltip" data-placement="top" title="Instagram" href="https://www.instagram.com">
+                        <i class="fa fa-instagram white-text"> </i>
                     </a>
                 </div>
                 <!--Grid column-->
@@ -153,3 +153,9 @@
 
 </footer>
 <!--/.Footer-->
+
+<script type="text/javascript">
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    })
+</script>

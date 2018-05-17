@@ -18,6 +18,15 @@
 		.sticky-top-listing {
 			top:65px !important;
 		}
+
+		/*.listing-pagination>li>a,
+		.listing-pagination>li>span {
+		  border: 1px solid purple;
+		}
+		.listing-pagination>li.active>a {
+		  background: purple;
+		  color: #fff;
+		}*/
 	</style>
 </head>
 
@@ -90,7 +99,7 @@
 		<div class="col-md-12 mb-4">
 			<h4 class="text-center">
 				<i class="fa fa-chevron-left text-info"></i>
-				&nbsp;9 results found&nbsp;
+				&nbsp;52 results found&nbsp;
 				<i class="fa fa-chevron-right text-info"></i>
 			</h4>
 		</div>
@@ -98,7 +107,7 @@
 
 	<div class="container">
 		<!-- PROPERTY GRID -->
-		<div class="card-deck mt-3 mb-5">
+		<div class="card-deck mt-3 mb-3">
 			<div class="row">
 				<div class="card col-md-4 p-0 mb-5 shadow" style="cursor: pointer" onclick="window.location='/jfmestates-dev/listings/sale-new-three-storey-house-in-alabang-sample/'">
 					<!-- Image -->
@@ -114,7 +123,7 @@
 					<!-- Card Body -->
 					<div class="card-body bg-light p-3">
 						<h4 div="card-title" style="width:100%; height: 30px; overflow-x: hidden;">New Three-Storey House in Alabang</h4>
-						<p class="card-text" style="width:100%; height: 30px; overflow-x: hidden;">
+						<p class="card-text text-muted" style="width:100%; height: 30px; overflow-x: hidden;">
 							<i class="fa fa-map-marker"></i>&nbsp;
 							Ayala Alabang Village, Muntinlupa City
 						</p>
@@ -135,7 +144,7 @@
 					<!-- Card Body -->
 					<div class="card-body bg-light p-3">
 						<h4 div="card-title" style="width:100%; height: 30px; overflow-x: hidden;">New Three-Storey House in Alabang</h4>
-						<p class="card-text" style="width:100%; height: 30px; overflow-x: hidden;">
+						<p class="card-text text-muted" style="width:100%; height: 30px; overflow-x: hidden;">
 							<i class="fa fa-map-marker"></i>&nbsp;
 							Ayala Alabang Village, Muntinlupa City
 						</p>
@@ -155,7 +164,7 @@
 					<!-- Card Body -->
 					<div class="card-body bg-light p-3">
 						<h4 div="card-title" style="width:100%; height: 30px; overflow-x: hidden;">New Three-Storey House in Alabang</h4>
-						<p class="card-text" style="width:100%; height: 30px; overflow-x: hidden;">
+						<p class="card-text text-muted" style="width:100%; height: 30px; overflow-x: hidden;">
 							<i class="fa fa-map-marker"></i>&nbsp;
 							Ayala Alabang Village, Muntinlupa City
 						</p>
@@ -177,7 +186,7 @@
 					<!-- Card Body -->
 					<div class="card-body bg-light p-3">
 						<h4 div="card-title" style="width:100%; height: 30px; overflow-x: hidden;">New Three-Storey House in Alabang</h4>
-						<p class="card-text" style="width:100%; height: 30px; overflow-x: hidden;">
+						<p class="card-text text-muted" style="width:100%; height: 30px; overflow-x: hidden;">
 							<i class="fa fa-map-marker"></i>&nbsp;
 							Ayala Alabang Village, Muntinlupa City
 						</p>
@@ -197,7 +206,7 @@
 					<!-- Card Body -->
 					<div class="card-body bg-light p-3">
 						<h4 div="card-title" style="width:100%; height: 30px; overflow-x: hidden;">New Three-Storey House in Alabang</h4>
-						<p class="card-text" style="width:100%; height: 30px; overflow-x: hidden;">
+						<p class="card-text text-muted" style="width:100%; height: 30px; overflow-x: hidden;">
 							<i class="fa fa-map-marker"></i>&nbsp;
 							Ayala Alabang Village, Muntinlupa City
 						</p>
@@ -217,7 +226,7 @@
 					<!-- Card Body -->
 					<div class="card-body bg-light p-3">
 						<h4 div="card-title" style="width:100%; height: 30px; overflow-x: hidden;">New Three-Storey House in Alabang</h4>
-						<p class="card-text" style="width:100%; height: 30px; overflow-x: hidden;">
+						<p class="card-text text-muted" style="width:100%; height: 30px; overflow-x: hidden;">
 							<i class="fa fa-map-marker"></i>&nbsp;
 							Ayala Alabang Village, Muntinlupa City
 						</p>
@@ -239,7 +248,7 @@
 					<!-- Card Body -->
 					<div class="card-body bg-light p-3">
 						<h4 div="card-title" style="width:100%; height: 30px; overflow-x: hidden;">New Three-Storey House in Alabang</h4>
-						<p class="card-text" style="width:100%; height: 30px; overflow-x: hidden;">
+						<p class="card-text text-muted" style="width:100%; height: 30px; overflow-x: hidden;">
 							<i class="fa fa-map-marker"></i>&nbsp;
 							Ayala Alabang Village, Muntinlupa City
 						</p>
@@ -259,7 +268,7 @@
 					<!-- Card Body -->
 					<div class="card-body bg-light p-3">
 						<h4 div="card-title" style="width:100%; height: 30px; overflow-x: hidden;">New Three-Storey House in Alabang</h4>
-						<p class="card-text" style="width:100%; height: 30px; overflow-x: hidden;">
+						<p class="card-text text-muted" style="width:100%; height: 30px; overflow-x: hidden;">
 							<i class="fa fa-map-marker"></i>&nbsp;
 							Ayala Alabang Village, Muntinlupa City
 						</p>
@@ -279,7 +288,7 @@
 					<!-- Card Body -->
 					<div class="card-body bg-light p-3">
 						<h4 div="card-title" style="width:100%; height: 30px; overflow-x: hidden;">New Three-Storey House in Alabang</h4>
-						<p class="card-text" style="width:100%; height: 30px; overflow-x: hidden;">
+						<p class="card-text text-muted" style="width:100%; height: 30px; overflow-x: hidden;">
 							<i class="fa fa-map-marker"></i>&nbsp;
 							Ayala Alabang Village, Muntinlupa City
 						</p>
@@ -288,6 +297,41 @@
 			</div>
 		</div>
 		<!-- .PROPERTY GRID -->
+
+		<div class="row mb-5">
+			<nav aria-label="..." class="d-flex mx-auto">
+				<ul class="pagination listing-pagination">
+					<li class="page-item disabled">
+						<a class="page-link bg-light" href="#" tabindex="-1">
+							<i class="fa fa-chevron-left"></i>
+						</a>
+					</li>
+					<li class="page-item active">
+						<a class="page-link bg-info text-light" href="/jfmestates-dev/listings">1</a>
+					</li>
+					<li class="page-item">
+						<a class="page-link bg-light text-info" href="/jfmestates-dev/listings">2</a>
+					</li>
+					<li class="page-item">
+						<a class="page-link bg-light text-info" href="/jfmestates-dev/listings">3</a>
+					</li>
+					<li class="page-item">
+						<a class="page-link bg-light text-info" href="/jfmestates-dev/listings">4</a>
+					</li>
+					<li class="page-item">
+						<a class="page-link bg-light text-info" href="/jfmestates-dev/listings">5</a>
+					</li>
+					<li class="page-item">
+						<a class="page-link bg-light text-info" href="/jfmestates-dev/listings">6</a>
+					</li>
+					<li class="page-item">
+						<a class="page-link bg-light text-info" href="/jfmestates-dev/listings">
+							<i class="fa fa-chevron-right"></i>
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
 	</div>
 	
 	<?php include '../res/templates/footer.php'; ?>

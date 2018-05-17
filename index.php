@@ -130,14 +130,6 @@
 					</div>
 				</div>
 
-				<!-- <form method="POST" action="" class="shadow-lg">
-					<div class="input-group input-group-lg mb-3">
-						<input type="text" class="form-control" placeholder="Find the perfect property for you." aria-label="Search for Properties" aria-describedby="searchAddon">
-						<div class="input-group-append">
-							<button type="submit" class="btn btn-info">Search</button>
-						</div>
-					</div>
-				</form> -->
 			</div>
 
 		</div>
@@ -161,10 +153,5 @@
 
 	<script src="res/js/home-nav.js"></script>
 	<script src="res/js/scroll-top.js"></script>
-	<script>
-	$(document).ready(function(){
-	    $('[data-toggle="tooltip"]').tooltip(); 
-	});
-	</script>
 </body>
 </html>
