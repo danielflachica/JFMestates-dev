@@ -93,7 +93,7 @@
 						<textarea class="form-control mb-4" id="message" rows="8" placeholder="Please list down your requirements, budget, and estimated dates of occupancy. [SAMPLE ONLY]"></textarea>
 
 						<div class="form-group mb-1 text-right">
-							<button type="submit" class="btn btn-dark py-2">
+							<button type="submit" class="btn bg-midnight text-light py-2">
 								&nbsp;<i class="fa fa-send"></i>&nbsp;
 								&nbsp;Submit&nbsp;
 							</button>
