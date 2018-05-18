@@ -158,12 +158,156 @@
 	</div>
 
 	<!-- Property Details -->
-	<div style="height: 400px;">
-		
+	<div class="container pt-5">
+		<div class="row">
+			<div class="col-md-6">
+				<h1>Property Details</h1>
+
+				<div class="jumbotron px-5 py-4 mt-4">
+					<div class="row shadow-sm">
+						<div class="col-md-4 bg-info text-light text-center py-2">
+							<i class="fa fa-book mr-2"></i>
+							Listing Type
+						</div>
+						<div class="col-md-8 bg-light py-2">For Sale</div>
+					</div>
+
+					<div class="row shadow-sm mt-4">
+						<div class="col-md-3 bg-info text-light text-center py-2">
+							<i class="fa fa-dollar mr-2"></i>
+							Price
+						</div>
+						<div class="col-md-9 bg-light py-2">&#8369; 60,700,000</div>
+					</div>
+
+					<div class="row shadow-sm mt-4">
+						<div class="col-md-5 bg-info text-light text-center py-2">
+							<i class="fa fa-home mr-2"></i>
+							Lot Area (m<sup>2</sup>)
+						</div>
+						<div class="col-md-7 bg-light py-2">1285</div>
+					</div>
+
+					<div class="row shadow-sm mt-4">
+						<div class="col-md-5 bg-info text-light text-center py-2">
+							<i class="fa fa-home mr-2"></i>
+							Floor Area (m<sup>2</sup>)
+						</div>
+						<div class="col-md-7 bg-light py-2">780</div>
+					</div>
+
+					<div class="row shadow-sm mt-4">
+						<div class="col-md-4 bg-info text-light text-center py-2">
+							<i class="fa fa-bed mr-2"></i>
+							Bedrooms
+						</div>
+						<div class="col-md-8 bg-light py-2">5</div>
+					</div>
+
+					<div class="row shadow-sm mt-4">
+						<div class="col-md-4 bg-info text-light text-center py-2">
+							<i class="fa fa-bed mr-2"></i>
+							Bathrooms
+						</div>
+						<div class="col-md-8 bg-light py-2">7</div>
+					</div>
+
+					<div class="row shadow-sm mt-4">
+						<div class="col-md-4 bg-info text-light text-center py-2">
+							<i class="fa fa-car mr-2"></i>
+							Car Spaces
+						</div>
+						<div class="col-md-8 bg-light py-2">4</div>
+					</div>
+				</div>
+
+				<hr class="my-5 font-weight-bold">
+
+				<div class="mb-5">
+					<h1 class="mb-4">Property Features</h1>
+
+					<h4>Lorem Ipsum</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut egestas elit risus, sit amet rutrum nisl accumsan id. Aenean venenatis tristique sapien, id rhoncus eros. Donec in imperdiet ipsum.</p>
+
+					<h4>Lorem Ipsum</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut egestas elit risus, sit amet rutrum nisl accumsan id. Aenean venenatis tristique sapien, id rhoncus eros. Donec in imperdiet ipsum. nisl accumsan id. Aenean venenatis tristique sapien, id rhoncus eros. Donec in imperdiet ipsum.</p>
+
+					<h4>Lorem Ipsum</h4>
+					<p>Viewing by appointment.</p>
+				</div>
+			</div>
+
+			<!-- RIGHT COL -->
+			<div class="col-md-5 offset-md-1">
+				<div class="shadow mb-5">
+					<div class="bg-info text-light p-4 pb-0">
+						<h2>Contact Seller</h2>
+					</div>
+					<div class="bg-light p-4">
+						<form>
+							<!-- FULL NAME -->
+							<div class="form-group">
+								<label for="name">
+									Full Name
+									<span class="text-danger font-weight-bold">*</span>
+								</label>
+								<div class="input-group mb-3">
+									<div class="input-group-prepend">
+										<span class="input-group-text" id="name-addon">
+											<i class="fa fa-user"></i>
+										</span>
+									</div>
+									<input type="text" class="form-control" id="name" name="fullname" aria-describedby="name-addon" placeholder="e.g. John Doe">
+								</div>
+							</div>
+
+							<!-- EMAIL -->
+							<div class="form-group">
+								<label for="email">
+									Email Address
+									<span class="text-danger font-weight-bold">*</span>
+								</label>
+								<div class="input-group mb-3">
+									<div class="input-group-prepend">
+										<span class="input-group-text" id="email-addon">
+											<i class="fa fa-envelope"></i>
+										</span>
+									</div>
+									<input type="email" class="form-control" id="email" aria-describedby="email-addon" name="email">
+								</div>
+							</div>
+
+							<!-- MOBILE NUMBER -->
+							<div class="form-group">
+								<label for="number">
+									Mobile Number
+									<span class="text-danger font-weight-bold">*</span>
+								</label>
+								<input type="tel" class="form-control" id="number" name="number">
+							</div>
+
+							<!-- MESSAGE -->
+							<label for="message">
+								Your Message
+								<span class="text-danger font-weight-bold">*</span>
+							</label>
+							<textarea class="form-control mb-4" id="message" rows="8" placeholder="Hi, I'm interested in getting this property. [SAMPLE ONLY]"></textarea>
+
+							<div class="form-group mb-1 text-right">
+								<button type="submit" class="btn bg-midnight text-light py-2">
+									&nbsp;<i class="fa fa-send"></i>&nbsp;
+									&nbsp;Submit&nbsp;
+								</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 
 	<!-- Location Map -->
-	<span class="badge badge-secondary p-2 pt-3 mb-0" style="width: 100%; border-radius: 0">
+	<span class="badge badge-secondary p-2 pt-3 mb-0 mt-4" style="width: 100%; border-radius: 0">
 		<h6><i class="fa fa-map-marker"></i> &nbsp; 509 Anonas Street, Ayala Alabang Village, Muntinlupa City, 1780</h6>
 	</span>
 	<div id="googleMap" class="col-md-12 bg-light mt-0" style="height:500px"></div>

@@ -3,7 +3,6 @@ html, body {
 	/*font-family: 'Montserrat', sans-serif;*/
 	/*font-family: 'Titillium Web', sans-serif;*/
 	font-family: 'Exo', sans-serif;
-	/*font-family: 'Oxygen', sans-serif;*/
 }
 
 .home-bg {
@@ -148,12 +147,6 @@ html, body {
 /*.btn {
 	border: 2px solid red;
 }*/
-
-.card-listing:hover {
-	transform: scale(1.1); 
-    -webkit-transition: transform 0.3s; /* Safari */
-    transition: transform 0.3s;
-}
 
 
 /*FONT AWESOME*/

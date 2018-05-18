@@ -211,7 +211,7 @@
 											</div>
 											<input type="text" class="form-control" id="name" aria-describedby="name-addon" placeholder="e.g. John Doe">
 										</div>
-										<small id="emailHelp" class="form-text">If you prefer to keep your information private, enter <i>Anonymous</i> in place of your name.</small>
+										<small id="emailHelp" class="form-text text-muted">If you prefer to keep your information private, enter <i>Anonymous</i> in place of your name.</small>
 									</div>
 
 									<div class="form-group">

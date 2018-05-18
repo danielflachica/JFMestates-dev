@@ -11,7 +11,7 @@
 	<link rel="stylesheet" href="../../res/css/app.css">
 
 	<!-- Font-awesome -->
-	<!-- <link rel="stylesheet" href="../../res/font-awesome/web-fonts-with-css/css/fontawesome.min.css"> -->
+	<!-- <link rel="stylesheet" href="../res/font-awesome/web-fonts-with-css/css/fontawesome-all.css"> -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
 	<!-- JavaScript and jQuery -->

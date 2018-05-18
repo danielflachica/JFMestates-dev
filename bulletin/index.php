@@ -11,8 +11,9 @@
 <body>
 	<?php require '../res/templates/nav.php'; ?>
 
-	<div class="container">
+	<div class="container" style="height: 400px;">
 		<h1>Bulletin Board</h1>
+		<hr><br>
 		
 	</div>
 	
