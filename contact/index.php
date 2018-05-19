@@ -6,6 +6,28 @@
 	<?php require_once '../res/templates/google-fonts.php'; ?>
 
 	<?php session_start(); $_SESSION['active_page'] = 'contact'; ?>
+
+	<style type="text/css">
+		.intl-tel-input {
+		  display: table-cell;
+		 	width: 100vh;
+		}
+		.intl-tel-input .selected-flag {
+		  z-index: 4;
+		  background: #e9ecef;
+		  border-right: 1px solid #ccc;
+		}
+		.intl-tel-input .country-list {
+		  z-index: 5;
+		  color: #000;
+		}
+		.input-group .intl-tel-input .form-control {
+		  border-top-left-radius: 4px;
+		  border-top-right-radius: 0;
+		  border-bottom-left-radius: 0px;
+		  border-bottom-right-radius: 0;
+		}
+	</style>
 </head>
 
 <body>
@@ -61,7 +83,7 @@
 								Mobile Number
 								<span class="text-danger font-weight-bold">*</span>
 							</label>
-							<input type="tel" class="form-control" id="number" name="number">
+							<input type="tel" class="form-control" id="phone-number" name="phone-number">
 						</div>
 
 						<!-- INQUIRY TYPE -->
@@ -144,5 +166,18 @@
 	<!-- JavaScript -->
 	<script src="../res/js/google-maps.js"></script>
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZW6FD7qMaMzol6g3ESy2RtmyRgnXS9Ws&callback=homeMap"></script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="../res/intl-tel-input/build/js/intlTelInput.js"></script>
+	<script>
+	    $("#phone-number").intlTelInput({
+
+	      initialCountry: "ph",
+
+	      preferredCountries: ['ph', 'us'],
+
+	      utilsScript: "../res/intl-tel-input/build/js/utils.js"
+	    });
+	</script>
 </body>
 </html>

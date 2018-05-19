@@ -14,6 +14,8 @@
 	<!-- <link rel="stylesheet" href="../res/font-awesome/web-fonts-with-css/css/fontawesome-all.min.css"> -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
+	<!-- International Tel Input -->
+	<link rel="stylesheet" href="../res/intl-tel-input/build/css/intlTelInput.css">
 
 	<!-- JavaScript and jQuery -->
 	<script src="../res/js/jquery.min.js"></script>

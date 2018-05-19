@@ -136,10 +136,10 @@
 			</div>
 
 			<div class="col-md-6 text-right px-0 pt-1">
-				<button class="btn btn-outline-info">
+				<a class="btn btn-outline-info" href="/jfmestates-dev/listings">
 					View All Listings&nbsp;
 					<small><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i></small>
-				</button>
+				</a>
 			</div>
 		</div>
 

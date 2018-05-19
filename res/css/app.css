@@ -158,14 +158,43 @@ html, body {
 	border: 2px solid red;
 }*/
 
+/*.card-listing>.card-img-top {
+	z-index: 0;
+}
+.card-listing>.card-img-overlay {
+	z-index: 1;
+}*/
 .card-listing:hover {
-	transform: scale(1.1); 
-    -webkit-transition: transform 0.3s; /* Safari */
-    transition: transform 0.3s;
+	transform: scale(1.05); 
+	/*opacity: 0.4;*/
+    -webkit-transition:  transform 0.3s; /* Safari */
+    transition:  transform 0.3s;
 }
 
 
 /*FONT AWESOME*/
 textarea, input {
 	font-family: FontAwesome,'Exo', sans-serif;
+}
+
+
+/*INTERNATIONAL TEL INPUT*/
+.intl-tel-input {
+  display: table-cell;
+ 	width: 100vh;
+}
+.intl-tel-input .selected-flag {
+  z-index: 4;
+  background: #e9ecef;
+  border-right: 1px solid #ccc;
+}
+.intl-tel-input .country-list {
+  z-index: 5;
+  color: #000;
+}
+.input-group .intl-tel-input .form-control {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0;
 }
