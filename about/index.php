@@ -29,7 +29,45 @@
 		</div>
 	</div>
 	
-	<div class="container-fluid bg-midnight" style="height: 600px">
+	<div class="container-fluid bg-midnight">
+		<div class="container py-5">
+			<div class="row mb-5">
+				<div class="col-md-12 text-center text-white">
+					<h1>Services Offered</h1>
+				</div>
+			</div>
+			<div class="row bg-midnight mx-0 mt-3">
+				<div class="col-md-4">
+					<div class="card border-0 bg-midnight text-light">
+						<center><img class="card-img-top" src="http://www.icons101.com/icon_png/size_512/id_76710/Settings_L.png" style="width: 50%; height: auto; border-radius: 50%;"></center>
+						<div class="card-body mt-3">
+							<h3>Sample Header</h3>
+							<p class="card-text text-justify">Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="card border-0 bg-midnight text-light">
+						<center><img class="card-img-top " src="http://www.icons101.com/icon_png/size_512/id_76710/Settings_L.png" style="width: 50%; height: auto; border-radius: 50%;"></center>
+						<div class="card-body mt-3">
+							<h3>Sample Header</h3>
+							<p class="card-text text-justify">Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="card border-0 bg-midnight text-light">
+						<center><img class="card-img-top " src="http://www.icons101.com/icon_png/size_512/id_76710/Settings_L.png" style="width: 50%; height: auto; border-radius: 50%;"></center>
+						<div class="card-body mt-3">
+							<h3>Sample Header</h3>
+							<p class="card-text text-justify">Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 
 	<?php include '../res/templates/footer.php'; ?>
