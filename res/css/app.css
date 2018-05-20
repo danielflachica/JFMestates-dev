@@ -164,6 +164,11 @@ html, body {
 .card-listing>.card-img-overlay {
 	z-index: 1;
 }*/
+.card-listing>.card-img-overlay:hover {
+	/*opacity: 0.4;
+	-webkit-transition:opacity 0.2s;
+	transition:opacity 0.2s;*/
+}
 .card-listing:hover {
 	transform: scale(1.05); 
 	/*opacity: 0.4;*/
