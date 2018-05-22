@@ -123,9 +123,58 @@
 		</div>
 	</div>	
 
-	<div class="container-fluid bg-light">
-		<div class="container py-5 px-0" style="height: 400px">
-			<h1>About this Site</h1>
+	<div class="container-fluid bg-midnight text-light">
+		<div class="container py-5">
+			<div class="row">
+				<div class="col-md-6 text-left px-0">
+					<h1>About Us</h1>
+				</div>
+
+				<div class="col-md-6 text-right px-0 pt-1">
+					<a class="btn btn-outline-info" href="/jfmestates-dev/about">
+						Read More&nbsp;
+						<small><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i></small>
+					</a>
+				</div>
+			</div>
+
+			<div class="row px-5 mt-4 mb-5">
+				<div class="col-md-4 bg-info mb-4">
+					<img class="img-fluid" src="res/img/jen.jpg" style="">
+				</div>
+				<div class="col-md-8 px-5 text-justify">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum rerum eos deleniti corporis inventore libero, vitae adipisci qui tenetur dolorem alias ad veniam, voluptatum cupiditate quia accusamus. Omnis, ab, repudiandae.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum rerum eos deleniti corporis inventore libero, vitae adipisci qui tenetur dolorem alias ad veniam, voluptatum cupiditate quia accusamus. Omnis, ab, repudiandae.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum rerum eos deleniti corporis inventore libero, vitae adipisci qui tenetur dolorem alias ad veniam, voluptatum cupiditate quia accusamus. Omnis, ab, repudiandae.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum rerum eos deleniti corporis inventore libero, vitae adipisci qui tenetur dolorem alias ad veniam, voluptatum cupiditate quia accusamus. Omnis, ab, repudiandae.</p>
+				</div>
+			</div>
+
+			<div class="row mx-0 mt-3 pt-5 border-top border-info">
+				<div class="col-md-4">
+					<div class="card border-0 bg-midnight">
+						<center><img class="card-img-top" src="http://www.icons101.com/icon_png/size_512/id_76710/Settings_L.png" style="width: 50%; height: auto; border-radius: 50%;"></center>
+						<div class="card-body text-center mt-3">
+							<h3>Sample Header</h3>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="card border-0 bg-midnight">
+						<center><img class="card-img-top " src="http://www.icons101.com/icon_png/size_512/id_76710/Settings_L.png" style="width: 50%; height: auto; border-radius: 50%;"></center>
+						<div class="card-body text-center mt-3">
+							<h3>Sample Header</h3>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="card border-0 bg-midnight">
+						<center><img class="card-img-top " src="http://www.icons101.com/icon_png/size_512/id_76710/Settings_L.png" style="width: 50%; height: auto; border-radius: 50%;"></center>
+						<div class="card-body text-center mt-3">
+							<h3>Sample Header</h3>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 
