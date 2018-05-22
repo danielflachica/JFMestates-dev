@@ -28,9 +28,14 @@
 			border-radius: 50%;
 			border: 3px solid #B2EBF2;
 			position: absolute;
-			top: 13px;
+			top: 1.3rem;
 			left: 20px;
 			z-index: 2;
+		}
+
+		h1 {
+			/*margin-top: 0.4rem;
+			margin-bottom: 0.4rem;*/
 		}
 
 		@media only screen and (max-width: 600px) {
@@ -49,14 +54,15 @@
 		<hr><br>
 		
 		<div class="container mb-5 px-5">
-			<div class="card jfm-card mb-5">
-				<div class="card-header jfm-card-header">
+			<div class="card jfm-card mb-5 bg-light">
+				<div class="card-header jfm-card-header bg-midnight text-light pt-4">
 					<img class="jfm-dp border-info hidden-sm hidden-xs" src="../res/img/jen.jpg" data-toggle="tooltip" data-placement="bottom" title="Jennie Misa">
 
 					<div class="col-md-10 offset-md-2 col-sm-12 offset-sm-0">
 						<div class="row">	
-							<h1 class="">Hello World!</h1>
-							<small class="text-muted jfm-text-right">Posted on May 21, 2018</small>
+							<h1 class="mr-3">Hello World!</h1>
+							<span class="badge badge-info my-auto">Posted on May 21, 2018</span>
+							<!-- <small class="text-muted jfm-text-right">Posted on May 21, 2018</small> -->
 						</div>
 					</div>
 				</div>
@@ -65,14 +71,15 @@
 				</div> 
 			</div>
 
-			<div class="card jfm-card mb-5">
-				<div class="card-header jfm-card-header">
+			<div class="card jfm-card mb-5 bg-light">
+				<div class="card-header jfm-card-header bg-midnight text-light pt-4">
 					<img class="jfm-dp border-info hidden-sm hidden-xs" src="../res/img/jen.jpg" data-toggle="tooltip" data-placement="bottom" title="Jennie Misa">
 
 					<div class="col-md-10 offset-md-2 col-sm-12 offset-sm-0">
 						<div class="row">	
-							<h1 class="">Hello World!</h1>
-							<small class="text-muted jfm-text-right">Posted on May 21, 2018</small>
+							<h1 class="mr-3">Hello World!</h1>
+							<span class="badge badge-info my-auto">Posted on May 21, 2018</span>
+							<!-- <small class="text-muted jfm-text-right">Posted on May 21, 2018</small> -->
 						</div>
 					</div>
 				</div>
@@ -81,14 +88,15 @@
 				</div> 
 			</div>
 
-			<div class="card jfm-card mb-5">
-				<div class="card-header jfm-card-header">
+			<div class="card jfm-card mb-5 bg-light">
+				<div class="card-header jfm-card-header bg-midnight text-light pt-4">
 					<img class="jfm-dp border-info hidden-sm hidden-xs" src="http://www.icons101.com/icon_png/size_512/id_76710/Settings_L.png" data-toggle="tooltip" data-placement="bottom" title="Site Administrator">
 
 					<div class="col-md-10 offset-md-2 col-sm-12 offset-sm-0">
 						<div class="row">	
-							<h1 class="">Scheduled Site Maintenance</h1>
-							<small class="text-muted jfm-text-right">Posted on May 21, 2018</small>
+							<h1 class="mr-3">Scheduled Site Maintenance</h1>
+							<span class="badge badge-info my-auto">Posted on May 21, 2018</span>
+							<!-- <small class="text-light my-auto jfm-text-right">Posted on May 21, 2018</small> -->
 						</div>
 					</div>
 				</div>

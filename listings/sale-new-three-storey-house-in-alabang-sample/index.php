@@ -82,7 +82,7 @@
 	<?php include '../../modals/image-1.php';?>
 
 	<div class="container mb-4">
-		<a class="btn btn-sm btn-secondary px-3 mb-3" href="/jfmestates-dev/listings">
+		<a class="btn btn-sm btn-outline-info px-3 mb-3" href="/jfmestates-dev/listings">
 			<small><i class="fa fa-chevron-left"></i><i class="fa fa-chevron-left"></i></small>&nbsp;
 			Back to Listings
 		</a>
@@ -259,7 +259,7 @@
 
 			<!-- RIGHT COL -->
 			<div class="col-md-5 offset-md-1">
-				<div class="shadow mb-5">
+				<div class="shadow-sm mb-5">
 					<div class="bg-info text-light p-4 pb-0">
 						<h2>Contact Seller</h2>
 					</div>
