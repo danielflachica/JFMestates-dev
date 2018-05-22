@@ -90,7 +90,7 @@
 	</div>
 	
 	<!-- Carousel -->
-	<div class="container-fluid mt-4 bg-midnight">
+	<div class="container-fluid mt-4 bg-midnight" style="min-height: 400px;">
 		<div class="container">
 			<div class="row px-3">
 				<div class="col-md-1">
@@ -100,7 +100,7 @@
 					</a>
 				</div>
 				<div class="col-md-10 px-0">
-					<div id="carouselExampleControls" class="carousel slide" data-interval="false">
+					<div id="carouselExampleControls" class="carousel slide" data-interval="3000" data-ride="carousel">
 						<!-- Indicators -->
 						<!-- <ol class="carousel-indicators">
 							<li data-target="#carouselExampleIndicators" data-slide="0" class="active"></li>
@@ -241,9 +241,9 @@
 					</div>
 				</div>
 
-				<hr class="my-5 font-weight-bold">
+				<!-- <hr class="mt-5 mb-4 border border-secondary"> -->
 
-				<div class="mb-5">
+				<div class="mb-5 pt-3">
 					<h1 class="mb-4">Property Features</h1>
 
 					<h4>Lorem Ipsum</h4>
@@ -261,7 +261,7 @@
 			<div class="col-md-5 offset-md-1">
 				<div class="shadow-sm mb-5">
 					<div class="bg-info text-light p-4 pb-0">
-						<h2>Contact Seller</h2>
+						<h2 class="pt-1">Contact Seller</h2>
 					</div>
 					<div class="bg-light p-4">
 						<form>
@@ -314,7 +314,7 @@
 							<textarea class="form-control mb-4" id="message" rows="8" placeholder="Hi, I'm interested in getting this property. [SAMPLE ONLY]"></textarea>
 
 							<div class="form-group mb-1 text-right">
-								<button type="submit" class="btn bg-midnight text-light py-2">
+								<button type="submit" class="btn btn-midnight text-light py-2">
 									&nbsp;<i class="fa fa-send"></i>&nbsp;
 									&nbsp;Submit&nbsp;
 								</button>

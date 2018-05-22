@@ -15,7 +15,7 @@
 		<h1>About Us Page</h1>
 	</div>
 
-	<div class="container-fluid about-bg border-top">
+	<div class="container-fluid about-bg border-top" style="min-height: 400px;">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-5"></div>
@@ -30,7 +30,7 @@
 	</div>
 	
 	<div class="container-fluid bg-midnight">
-		<div class="container py-5">
+		<div class="container py-5" id="services">
 			<div class="row mb-5">
 				<div class="col-md-12 text-center text-white">
 					<h1>Services Offered</h1>

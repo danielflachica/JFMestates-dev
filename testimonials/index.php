@@ -26,7 +26,9 @@
 		<?php endif; ?>
 
 		<hr><br>
+	</div>
 
+	<div class="container" style="min-height: 400px;">
 		<?php include '../modals/testimonial.php'; ?>
 
 		<div class="card-columns">

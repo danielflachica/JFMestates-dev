@@ -15,6 +15,8 @@
 		<h1>Terms of Service</h1>
 		<hr><br>
 	</div>
+
+	<div class="container" style="min-height: 400px;"></div>
 	
 	<?php include '../res/templates/footer.php'; ?>
 </body>

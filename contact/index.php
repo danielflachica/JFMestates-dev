@@ -38,7 +38,7 @@
 
 		<hr><br>
 
-		<div class="row">
+		<div class="row" style="min-height: 400px;">
 			<div class="col-md-6 px-4">	
 				<h3>We'd love to hear from you.</h3>
 				<p>Are you looking to buy, sell, or rent property? Send us a message below. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -115,7 +115,7 @@
 						<textarea class="form-control mb-4" id="message" rows="8" placeholder="Please list down your requirements, budget, and estimated dates of occupancy. [SAMPLE ONLY]"></textarea>
 
 						<div class="form-group mb-1 text-right">
-							<button type="submit" class="btn bg-midnight text-light py-2">
+							<button type="submit" class="btn btn-midnight text-light py-2">
 								&nbsp;<i class="fa fa-send"></i>&nbsp;
 								&nbsp;Submit&nbsp;
 							</button>

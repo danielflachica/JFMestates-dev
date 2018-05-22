@@ -83,16 +83,10 @@
                 </h6>
                 <hr class="deep-purple bg-info accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 120px;">
                 <p>
-                    <a href="#!">About the Owner</a>
+                    <a href="/jfmestates-dev/about/">About JFM Estates</a>
                 </p>
                 <p>
-                    <a href="#!">Services Offered</a>
-                </p>
-                <p>
-                    <a href="#!">Locations</a>
-                </p>
-                <p>
-                    <a href="#!">Another Link</a>
+                    <a href="/jfmestates-dev/about/#services">Services Offered</a>
                 </p>
             </div>
             <!--/.Third column-->

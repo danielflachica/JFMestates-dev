@@ -15,6 +15,8 @@
 		<h1>Privacy Policy</h1>
 		<hr><br>
 	</div>
+
+	<div class="container" style="min-height: 400px;"></div>
 	
 	<?php include '../../res/templates/footer-legal.php'; ?>
 </body>

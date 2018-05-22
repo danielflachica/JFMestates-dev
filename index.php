@@ -139,16 +139,16 @@
 			</div>
 
 			<div class="row px-5 mt-4 mb-5">
-				<div class="col-md-4 bg-info mb-4">
-					<img class="img-fluid" src="res/img/jen.jpg" style="">
+				<div class="col-md-4 mb-4 px-5">
+					<img class="img-fluid" src="res/img/jen.jpg" style="border-radius: 50%; border: 3px solid #B2EBF2;">
 				</div>
-				<div class="col-md-8 px-5 text-justify">
+				<div class="col-md-8 text-justify">
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum rerum eos deleniti corporis inventore libero, vitae adipisci qui tenetur dolorem alias ad veniam, voluptatum cupiditate quia accusamus. Omnis, ab, repudiandae.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum rerum eos deleniti corporis inventore libero, vitae adipisci qui tenetur dolorem alias ad veniam, voluptatum cupiditate quia accusamus. Omnis, ab, repudiandae.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum rerum eos deleniti corporis inventore libero, vitae adipisci qui tenetur dolorem alias ad veniam, voluptatum cupiditate quia accusamus. Omnis, ab, repudiandae.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum rerum eos deleniti corporis inventore libero, vitae adipisci qui tenetur dolorem alias ad veniam, voluptatum cupiditate quia accusamus. Omnis, ab, repudiandae.</p>
 				</div>
 			</div>
 
-			<div class="row mx-0 mt-3 pt-5 border-top border-info">
-				<div class="col-md-4">
+			<div class="row mx-0 mt-5 pt-5 mb-0 border-top border-secondary mx-5">
+				<div class="col-md-4 mt-3">
 					<div class="card border-0 bg-midnight">
 						<center><img class="card-img-top" src="http://www.icons101.com/icon_png/size_512/id_76710/Settings_L.png" style="width: 50%; height: auto; border-radius: 50%;"></center>
 						<div class="card-body text-center mt-3">
@@ -157,7 +157,7 @@
 					</div>
 				</div>
 
-				<div class="col-md-4">
+				<div class="col-md-4 mt-3">
 					<div class="card border-0 bg-midnight">
 						<center><img class="card-img-top " src="http://www.icons101.com/icon_png/size_512/id_76710/Settings_L.png" style="width: 50%; height: auto; border-radius: 50%;"></center>
 						<div class="card-body text-center mt-3">
@@ -166,7 +166,7 @@
 					</div>
 				</div>
 
-				<div class="col-md-4">
+				<div class="col-md-4 mt-3">
 					<div class="card border-0 bg-midnight">
 						<center><img class="card-img-top " src="http://www.icons101.com/icon_png/size_512/id_76710/Settings_L.png" style="width: 50%; height: auto; border-radius: 50%;"></center>
 						<div class="card-body text-center mt-3">
@@ -178,7 +178,7 @@
 		</div>
 	</div>
 
-	<div class="container py-5">
+	<div class="container pt-5 pb-3">
 		<div class="row">
 			<div class="col-md-6 text-left px-0">
 				<h1>Featured Listings</h1>
@@ -323,11 +323,29 @@
 	</div>
 
 	<!-- BF HOMES LOCATION MAP -->
-	<div id="googleMap" class="bg-light mt-0" style="height:550px; width: 100%"></div>
+	<div class="container-fluid mb-0 mt-0 bg-midnight text-white">
+		<div class="container py-4">
+			<div class="row">
+				<div class="col-md-6 text-left px-0">
+					<h1>Location Map</h1>
+				</div>
+
+				<div class="col-md-6 text-right px-0 pt-1">
+					<a class="btn btn-outline-info" href="/jfmestates-dev/contact">
+						Contact Details&nbsp;
+						<small><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i></small>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- <div class="container-fluid bg-midnight px-4 pb-5"> -->
+		<div id="googleMap" class="bg-light mt-0" style="height:550px; width: 100%"></div>
+	<!-- </div> -->
 
 	<?php include 'res/templates/footer-home.php'; ?>
 
-	<button class="btn btn-outline-info bg-light shadow" id="scroll-top-btn" onclick="topFunction()" data-toggle="tooltip" data-placement="left" title="Back to Top" style="height: 70px; width: 70px">
+	<button class="btn btn-outline-info bg-light shadow" id="scroll-top-btn" onclick="topFunction()" data-toggle="tooltip" data-placement="left" title="Back to Top" style="height: 70px; width: 70px; border-radius: 50%;">
 		<!-- <img src="res/img/up.png" height="18px" width="25px"> -->
 		<i class="fa fa-angle-double-up fa-2x"></i>
 	</button>

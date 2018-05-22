@@ -8,6 +8,9 @@
 	<?php session_start(); $_SESSION['active_page'] = 'bulletin'; ?>
 
 	<style type="text/css">
+		body {
+			padding-right: 0px;
+		}
 		.jfm-card > .jfm-text-right {
 			position: fixed;
 			top: 20px;
@@ -29,13 +32,8 @@
 			border: 3px solid #B2EBF2;
 			position: absolute;
 			top: 1.3rem;
-			left: 20px;
+			left: 25px;
 			z-index: 2;
-		}
-
-		h1 {
-			/*margin-top: 0.4rem;
-			margin-bottom: 0.4rem;*/
 		}
 
 		@media only screen and (max-width: 600px) {
@@ -53,20 +51,20 @@
 		<h1>Bulletin Board</h1>
 		<hr><br>
 		
-		<div class="container mb-5 px-5">
+		<div class="container mb-5 px-5 mt-2 jumbotron pt-5 pb-2" style="min-height: 400px;">
 			<div class="card jfm-card mb-5 bg-light">
 				<div class="card-header jfm-card-header bg-midnight text-light pt-4">
 					<img class="jfm-dp border-info hidden-sm hidden-xs" src="../res/img/jen.jpg" data-toggle="tooltip" data-placement="bottom" title="Jennie Misa">
 
 					<div class="col-md-10 offset-md-2 col-sm-12 offset-sm-0">
 						<div class="row">	
-							<h1 class="mr-3">Hello World!</h1>
+							<h1 class="mr-3">Sample Announcement</h1>
 							<span class="badge badge-info my-auto">Posted on May 21, 2018</span>
 							<!-- <small class="text-muted jfm-text-right">Posted on May 21, 2018</small> -->
 						</div>
 					</div>
 				</div>
-				<div class="card-body col-md-10 offset-md-2 col-sm-12 offset-sm-0">
+				<div class="card-body col-md-10 offset-md-2 col-sm-12 offset-sm-0" style="min-height: 100px">
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum rerum eos deleniti corporis inventore libero, vitae adipisci qui tenetur dolorem alias ad veniam, voluptatum cupiditate quia accusamus. Omnis, ab, repudiandae.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum rerum eos deleniti corporis inventore libero, vitae adipisci qui tenetur dolorem alias ad veniam, voluptatum cupiditate quia accusamus. Omnis, ab, repudiandae.
 				</div> 
 			</div>
@@ -77,13 +75,13 @@
 
 					<div class="col-md-10 offset-md-2 col-sm-12 offset-sm-0">
 						<div class="row">	
-							<h1 class="mr-3">Hello World!</h1>
+							<h1 class="mr-3">Sample Announcement</h1>
 							<span class="badge badge-info my-auto">Posted on May 21, 2018</span>
 							<!-- <small class="text-muted jfm-text-right">Posted on May 21, 2018</small> -->
 						</div>
 					</div>
 				</div>
-				<div class="card-body col-md-10 offset-md-2 col-sm-12 offset-sm-0">
+				<div class="card-body col-md-10 offset-md-2 col-sm-12 offset-sm-0" style="min-height: 100px">
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum rerum eos deleniti corporis inventore libero, vitae adipisci qui tenetur dolorem alias ad veniam, voluptatum cupiditate quia accusamus. Omnis, ab, repudiandae.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum rerum eos deleniti corporis inventore libero, vitae adipisci qui tenetur dolorem alias ad veniam, voluptatum cupiditate quia accusamus. Omnis, ab, repudiandae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum rerum eos deleniti corporis inventore libero, vitae adipisci qui tenetur dolorem alias ad veniam, voluptatum cupiditate quia accusamus. Omnis, ab, repudiandae.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum rerum eos deleniti corporis inventore libero, vitae adipisci qui tenetur dolorem.
 				</div> 
 			</div>
@@ -100,13 +98,14 @@
 						</div>
 					</div>
 				</div>
-				<div class="card-body col-md-10 offset-md-2 col-sm-12 offset-sm-0">
+				<div class="card-body col-md-10 offset-md-2 col-sm-12 offset-sm-0" style="min-height: 100px">
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum rerum eos deleniti corporis inventore libero, vitae adipisci qui tenetur dolorem alias ad veniam, voluptatum cupiditate quia accusamus. Omnis, ab, repudiandae.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum rerum eos deleniti corporis inventore libero, vitae adipisci qui tenetur dolorem alias ad veniam, voluptatum cupiditate quia accusamus. Omnis, ab, repudiandae.
 				</div> 
 			</div>
 		</div>
 	</div>
-	<div class="row mb-4 py-1"></div>
+
+	<div class="container mb-3 py-1"></div>
 	
 	<?php include '../res/templates/footer.php'; ?>
 

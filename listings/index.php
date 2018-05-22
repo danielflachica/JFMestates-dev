@@ -105,7 +105,7 @@
 		</div>
 	</div>
 
-	<div class="container">
+	<div class="container" style="min-height: 400px;">
 		<!-- PROPERTY GRID -->
 		<div class="card-deck mt-3 mb-3">
 			<div class="row">

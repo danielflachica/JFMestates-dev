@@ -17,7 +17,7 @@ html, body {
 
 .about-bg {
 	background: url("../img/bg1.jpg") no-repeat ;
-	background-size: cover;
+	/*background-size: cover;*/
 	/*min-height: 100vh;*/
 	margin-bottom: 0px;
 	/* -webkit-filter: blur(10px); */ /* Safari 6.0 - 9.0 */
@@ -74,6 +74,12 @@ html, body {
 
 .bg-midnight {
 	background-color: #263238;
+}
+.btn-midnight {
+	background-color: #263238;
+}
+.btn-midnight:hover{
+	background-color: #182430;
 }
 .bg-midnight-fade {
 	/*background-color: rgba(38,50,56,1);*/

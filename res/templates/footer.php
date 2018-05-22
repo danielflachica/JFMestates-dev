@@ -42,36 +42,31 @@
 
     <!--Footer Links-->
     <div class="container mt-5 mb-4 text-center text-light text-md-left jfm-footer">
-        <div class="row mt-3">
+        <div class="row mt-3 px-2">
 
             <!--First column-->
-            <div class="col-md-3 px-3">
-                <h6 class="text-uppercase font-weight-bold">
-                    <strong>JFM Estates</strong>
-                </h6>
-                <hr class="deep-purple bg-info accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 120px;">
-                <p>Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit
-                    amet, consectetur adipisicing elit.</p>
+            <div class="col-md-1 px-3">
+                <img src="../res/img/logo.png" class="img-fluid mb-5" style="max-height: 70px">
             </div>
             <!--/.First column-->
 
             <!--Second column-->
-            <div class="col-md-2 px-2">
+            <div class="col-md-2 mb-3 px-2">
                 <h6 class="text-uppercase font-weight-bold">
                     <strong>Properties</strong>
                 </h6>
                 <hr class="deep-purple bg-info accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 120px;">
                 <p>
-                    <a href="#!">MDBootstrap</a>
+                    <a href="#!">All Properties</a>
                 </p>
                 <p>
-                    <a href="#!">MDWordPress</a>
+                    <a href="#!">For Sale</a>
                 </p>
                 <p>
-                    <a href="#!">BrandFlow</a>
+                    <a href="#!">For Rent</a>
                 </p>
                 <p>
-                    <a href="#!">Bootstrap Angular</a>
+                    <a href="#!">Joint Ventures</a>
                 </p>
             </div>
             <!--/.Second column-->
@@ -83,16 +78,10 @@
                 </h6>
                 <hr class="deep-purple bg-info accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 120px;">
                 <p>
-                    <a href="#!">About the Owner</a>
+                    <a href="/jfmestates-dev/about/">About JFM Estates</a>
                 </p>
                 <p>
-                    <a href="#!">Services Offered</a>
-                </p>
-                <p>
-                    <a href="#!">Locations</a>
-                </p>
-                <p>
-                    <a href="#!">Another Link</a>
+                    <a href="/jfmestates-dev/about/#services">Services Offered</a>
                 </p>
             </div>
             <!--/.Third column-->
@@ -109,7 +98,7 @@
                 <p>
                     <a href="/jfmestates-dev/testimonials/#submit-testimonial">Write a review</a>
                 </p>
-
+                
                <!--  <br>
                 <h6 class="text-uppercase font-weight-bold">
                     <strong>Bulletin</strong>
@@ -120,6 +109,15 @@
                 </p> -->
             </div>
             <!--/.Fourth column-->
+            <div class="col-md-2 mb-3 px-2">
+                <h6 class="text-uppercase font-weight-bold">
+                    <strong>Bulletin</strong>
+                </h6>
+                <hr class="deep-purple bg-info accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 120px;">
+                <p>
+                    <a href="/jfmestates-dev/bulletin">View Bulletin Board</a>
+                </p>
+            </div>
 
             <!--Fifth column-->
             <div class="col-md-3 px-2">
