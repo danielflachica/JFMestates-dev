@@ -16,12 +16,10 @@ html, body {
 }
 
 .about-bg {
-	background: url("../img/bg1.jpg") no-repeat ;
+	background: url("../img/bg4.jpg") no-repeat;
 	/*background-size: cover;*/
 	/*min-height: 100vh;*/
 	margin-bottom: 0px;
-	/* -webkit-filter: blur(10px); */ /* Safari 6.0 - 9.0 */
-    /* filter: blur(10px); */
 }
 
 .nav-home {

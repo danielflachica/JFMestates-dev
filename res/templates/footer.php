@@ -45,28 +45,28 @@
         <div class="row mt-3 px-2">
 
             <!--First column-->
-            <div class="col-md-1 px-3">
+            <!-- <div class="col-md-1 px-3">
                 <img src="../res/img/logo.png" class="img-fluid mb-5" style="max-height: 70px">
-            </div>
+            </div> -->
             <!--/.First column-->
 
             <!--Second column-->
             <div class="col-md-2 mb-3 px-2">
                 <h6 class="text-uppercase font-weight-bold">
-                    <strong>Properties</strong>
+                    <strong>Listings</strong>
                 </h6>
                 <hr class="deep-purple bg-info accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 120px;">
                 <p>
-                    <a href="#!">All Properties</a>
+                    <a href="/jfmestates-dev/listings">All Properties</a>
                 </p>
                 <p>
-                    <a href="#!">For Sale</a>
+                    <a href="/jfmestates-dev/listings">For Sale</a>
                 </p>
                 <p>
-                    <a href="#!">For Rent</a>
+                    <a href="/jfmestates-dev/listings">For Rent</a>
                 </p>
                 <p>
-                    <a href="#!">Joint Ventures</a>
+                    <a href="/jfmestates-dev/listings">Joint Ventures</a>
                 </p>
             </div>
             <!--/.Second column-->
@@ -120,13 +120,13 @@
             </div>
 
             <!--Fifth column-->
-            <div class="col-md-3 px-2">
+            <div class="col-md-4 px-2">
                 <h6 class="text-uppercase font-weight-bold">
                     <strong>Contact</strong>
                 </h6>
                 <hr class="deep-purple bg-info accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 120px;">
                 <p>
-                    &nbsp;<i class="fa fa-map-marker mr-3"></i>&nbsp;153 Aguirre Ave., BF Paranaque</p>
+                    &nbsp;<i class="fa fa-map-marker mr-3"></i>&nbsp;153 Aguirre Avenue, BF Homes, Paranaque</p>
                 <p>
                     <i class="fa fa-envelope mr-3"></i> realtorjennie@gmail.com</p>
                 <p>
