@@ -106,6 +106,7 @@
 			</div>
 		</div>
 	</div>
+	<div class="row mb-4 py-1"></div>
 	
 	<?php include '../res/templates/footer.php'; ?>
 

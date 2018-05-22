@@ -127,7 +127,7 @@
 			<div class="col-md-6 px-4">
 				<h3>Reach us any way you want.</h3>
 
-				<div class="jumbotron px-5 py-4 mt-4">
+				<div class="jumbotron px-5 py-4 mt-4 border-0">
 					<div class="row shadow-sm">
 						<div class="col-md-3 bg-info text-light text-center py-2">
 							<i class="fa fa-phone mr-2"></i>
