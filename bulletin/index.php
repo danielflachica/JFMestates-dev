@@ -90,7 +90,7 @@
 
 			<div class="card jfm-card mb-5 bg-light">
 				<div class="card-header jfm-card-header bg-midnight text-light pt-4">
-					<img class="jfm-dp border-info hidden-sm hidden-xs" src="http://www.icons101.com/icon_png/size_512/id_76710/Settings_L.png" data-toggle="tooltip" data-placement="bottom" title="Site Administrator">
+					<img class="jfm-dp border-info hidden-sm hidden-xs" src="https://www.dluxor.com/files/flat-faces-icons-circle-16.png" data-toggle="tooltip" data-placement="bottom" title="Site Administrator">
 
 					<div class="col-md-10 offset-md-2 col-sm-12 offset-sm-0">
 						<div class="row">	
