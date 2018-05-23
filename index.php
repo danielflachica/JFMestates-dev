@@ -12,8 +12,8 @@
 	<div class="home-bg">
 		<?php require 'res/templates/nav-home.php'; ?>
 
-		<div class="container">
-			<div class="col-md-10 mx-auto" style="margin-top: 22%">
+		<div class="container h-100">
+			<div class="col-md-10 mx-auto" style="margin-top: 30vh">
 				<!-- Nav Tabs -->
 				<ul class="nav nav-tabs nav-justified">
 					<li class="nav-item">
@@ -115,7 +115,6 @@
 				</div>
 
 			</div>
-
 		</div>
 	</div>	
 
