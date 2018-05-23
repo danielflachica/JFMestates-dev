@@ -35,10 +35,10 @@
 			<div class="card my-2 bg-light">
 				<div class="card-body text-center">
 					<div class="row">
-						<div class="col-md-2">
+						<div class="col-lg-2">
 							<i class="fa fa-quote-left fa-2x"></i>
 						</div>
-						<div class="col-md-10 px-2">
+						<div class="col-lg-10 px-2">
 							<blockquote class="card-text text-left">
 								Lorem ipsum dolor sit amet, conctus et netus et malesuada fames ac turpis egestas. Duis non accumsan nulla. Sed sit amet sem vulputate...
 							</blockquote>
@@ -53,10 +53,10 @@
 			<div class="card my-2 bg-light">
 				<div class="card-body text-center">
 					<div class="row">
-						<div class="col-md-2">
+						<div class="col-lg-2">
 							<i class="fa fa-quote-left fa-2x"></i>
 						</div>
-						<div class="col-md-10 px-2">
+						<div class="col-lg-10 px-2">
 							<blockquote class="card-text text-left">
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget sollicitudin risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In placerat, tortor at congue condimentum, dolor nibh dignissim libero, eget lacinia mi nibh eu nunc. Morbi finibus efficitur consectetur...
 							</blockquote>
@@ -71,10 +71,10 @@
 			<div class="card my-2 bg-light">
 				<div class="card-body text-center">
 					<div class="row">
-						<div class="col-md-2">
+						<div class="col-lg-2">
 							<i class="fa fa-quote-left fa-2x"></i>
 						</div>
-						<div class="col-md-10 px-2">
+						<div class="col-lg-10 px-2">
 							<blockquote class="card-text text-left">
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget sollicitudin risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In placerat, tortor at congue...
 							</blockquote>
@@ -89,10 +89,10 @@
 			<div class="card my-2 bg-light">
 				<div class="card-body text-center">
 					<div class="row">
-						<div class="col-md-2">
+						<div class="col-lg-2">
 							<i class="fa fa-quote-left fa-2x"></i>
 						</div>
-						<div class="col-md-10 px-2">
+						<div class="col-lg-10 px-2">
 							<blockquote class="card-text text-left">
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget sollicitudin risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In placerat, tortor at congue condimentum, dolor nibh dignissim libero, eget lacinia mi nibh eu nunc. Morbi finibus...
 							</blockquote>
@@ -107,10 +107,10 @@
 			<div class="card my-2 bg-light">
 				<div class="card-body text-center">
 					<div class="row">
-						<div class="col-md-2">
+						<div class="col-lg-2">
 							<i class="fa fa-quote-left fa-2x"></i>
 						</div>
-						<div class="col-md-10 px-2">
+						<div class="col-lg-10 px-2">
 							<blockquote class="card-text text-left">
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget sollicitudin risus. Lorem ipsum dolor  Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis non accumsan nulla. Sed sit amet sem vulputate tristique senectus et netus...
 							</blockquote>
@@ -125,10 +125,10 @@
 			<div class="card my-2 bg-light">
 				<div class="card-body text-center">
 					<div class="row">
-						<div class="col-md-2">
+						<div class="col-lg-2">
 							<i class="fa fa-quote-left fa-2x"></i>
 						</div>
-						<div class="col-md-10 px-2">
+						<div class="col-lg-10 px-2">
 							<blockquote class="card-text text-left">
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget sollicitudin risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In placerat, tortor at congue condimentum, dolor nibh dignissim accumsan ex pulvinar et. Pellentesque habitant morbi tristique senectus et net Sed sit amet sem vulputate tristique senectus et netus...
 							</blockquote>
@@ -143,10 +143,10 @@
 			<div class="card my-2 bg-light">
 				<div class="card-body text-center">
 					<div class="row">
-						<div class="col-md-2">
+						<div class="col-lg-2">
 							<i class="fa fa-quote-left fa-2x"></i>
 						</div>
-						<div class="col-md-10 px-2">
+						<div class="col-lg-10 px-2">
 							<blockquote class="card-text text-left">
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget sollicitudin risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit...
 							</blockquote>
@@ -161,10 +161,10 @@
 			<div class="card my-2 bg-light">
 				<div class="card-body text-center">
 					<div class="row">
-						<div class="col-md-2">
+						<div class="col-lg-2">
 							<i class="fa fa-quote-left fa-2x"></i>
 						</div>
-						<div class="col-md-10 px-2">
+						<div class="col-lg-10 px-2">
 							<blockquote class="card-text text-left">
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget sollicitudin risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In placerattate tristique senectus et netus...
 							</blockquote>
@@ -196,9 +196,9 @@
 					<div class="card-body">
 						<br>
 						<div class="row">
-							<div class="col-md-3"></div>
+							<div class="col-lg-3 col-md-2"></div>
 
-							<div class="col-md-6">
+							<div class="col-lg-6 col-md-8">
 								<form>
 									<div class="form-group">
 										<label for="name">
@@ -246,7 +246,7 @@
 								</form>
 							</div>
 
-							<div class="col-md-3"></div>
+							<div class="col-lg-3 col-md-2"></div>
 						</div>
 						<br>
 					</div>

@@ -180,7 +180,7 @@
 	<!-- Property Details -->
 	<div class="container pt-5">
 		<div class="row">
-			<div class="col-md-6">
+			<div class="col-lg-6">
 				<h1>Property Details</h1>
 
 				<div class="jumbotron px-5 py-4 mt-4">
@@ -258,7 +258,7 @@
 			</div>
 
 			<!-- RIGHT COL -->
-			<div class="col-md-5 offset-md-1">
+			<div class="col-lg-5 offset-lg-1 px-md-5">
 				<div class="shadow-sm mb-5">
 					<div class="bg-info text-light p-4 pb-0">
 						<h2 class="pt-1">Contact Seller</h2>
@@ -298,7 +298,7 @@
 							</div>
 
 							<!-- MOBILE NUMBER -->
-							<div class="form-group">
+							<div class="form-group" style="width: 100% !important">
 								<label for="number">
 									Mobile Number
 									<span class="text-danger font-weight-bold">*</span>

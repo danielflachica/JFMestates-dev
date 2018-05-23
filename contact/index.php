@@ -39,7 +39,7 @@
 		<hr><br>
 
 		<div class="row" style="min-height: 400px;">
-			<div class="col-md-6 px-4">	
+			<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 px-lg-4 px-md-5">	
 				<h3>We'd love to hear from you.</h3>
 				<p>Are you looking to buy, sell, or rent property? Send us a message below. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 
@@ -124,7 +124,7 @@
 				</div>
 			</div>
 
-			<div class="col-md-6 px-4">
+			<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 px-lg-4 px-md-5">
 				<h3>Reach us any way you want.</h3>
 
 				<div class="jumbotron px-5 py-4 mt-4 border-0">

@@ -19,6 +19,10 @@
 			top:65px !important;
 		}
 
+		.listings > .card {
+			margin: 0px;
+		}
+
 		/*.listing-pagination>li>a,
 		.listing-pagination>li>span {
 		  border: 1px solid purple;
@@ -36,12 +40,11 @@
 	<div class="container">
 		<h1 class="mb-4">Find the perfect property for you.</h1>
 	</div>
-	
+
 	<!-- FILTERS -->
 	<div class="container-fluid bg-midnight py-4 mb-4 sticky-top sticky-top-listing">
 		<div class="container">
 			<form method="POST" action="">
-				<input type="text" value="buy" style="display: none">
 
 				<div class="input-group input-group-lg mb-0 home-search-dekstop">
 					<div class="input-group-prepend">
@@ -82,7 +85,7 @@
 						</span> -->
 					</div>
 
-					<input type="text" class="form-control text-uppercase prop-search" placeholder="&#xf041;  location" aria-label="Search for Properties" aria-describedby="searchAddon">
+					<input type="text" class="col-lg-12 form-control text-uppercase prop-search" placeholder="&#xf041;  location" aria-label="Search for Properties" aria-describedby="searchAddon">
 
 					<div class="input-group-append">
 						<button type="submit" class="btn btn-info">
@@ -91,6 +94,22 @@
 					</div>
 				</div>
 			</form>
+			<!-- <br>
+			<form method="POST" action="" class="hidden-lg">
+				<div class="row">
+				</div>
+				<div class="row">
+					<div class="input-group input-group-lg mb-0 home-search-dekstop">
+						<input type="text" class="col-lg-12 form-control text-uppercase prop-search" placeholder="&#xf041;  location" aria-label="Search for Properties" aria-describedby="searchAddon">
+
+						<div class="input-group-append">
+							<button type="submit" class="btn btn-info">
+								<i class="fa fa-search pr-3"></i>Search
+							</button>
+						</div>
+					</div>
+				</div>
+			</form> -->
 		</div>
 	</div>
 	<!-- .FILTERS -->
@@ -107,14 +126,15 @@
 
 	<div class="container" style="min-height: 400px;">
 		<!-- PROPERTY GRID -->
-		<div class="card-deck mt-3 mb-3">
-			<div class="row">
-				<div class="card card-listing col-md-4 p-0 mb-5 shadow" style="cursor: pointer" onclick="window.location='/jfmestates-dev/listings/sale-new-three-storey-house-in-alabang-sample/'">
+		<!-- <div class=" mt-3 mb-3"> -->
+		<div class="row my-3 listings">
+			<div class="col-lg-4 col-md-6 p-3 mx-0 mb-1">
+				<div class="card card-listing shadow" style="cursor: pointer" onclick="window.location='/jfmestates-dev/listings/sale-new-three-storey-house-in-alabang-sample/'">
 					<!-- Image -->
 					<img class="card-img-top" style="height: 250px" src="../res/img/h1.jpg" alt="Card image">
 
 					<!-- Image overlay -->
-					<div class="card-img-overlay p-0">		
+					<div class="card-img-overlay pr-0 pt-2">		
 						<span class="badge badge-light px-4 py-2 mt-3 float-right" style="border-radius: 0px"><b>NEW!</b></span>
 						<span class="badge badge-success px-4 py-2 mt-3 float-right" style="border-radius: 0px">For Sale</span>
 					</div>
@@ -129,13 +149,15 @@
 						</p>
 					</div>
 				</div>
+			</div>
 
-				<div class="card card-listing col-md-4 p-0 mb-5 shadow" style="cursor: pointer" onclick="window.location='/jfmestates-dev/listings/sale-new-three-storey-house-in-alabang-sample/'">
+			<div class="col-lg-4 col-md-6 p-3 mx-0 mb-1">
+				<div class="card card-listing shadow" style="cursor: pointer" onclick="window.location='/jfmestates-dev/listings/sale-new-three-storey-house-in-alabang-sample/'">
 					<!-- Image -->
 					<img class="card-img-top" style="height: 250px" src="../res/img/h2.jpg" alt="Card image">
 
 					<!-- Image overlay -->
-					<div class="card-img-overlay p-0">		
+					<div class="card-img-overlay pr-0 pt-2">		
 						<span class="badge badge-light px-4 py-2 mt-3 float-right" style="border-radius: 0px"><b>NEW!</b></span>
 						<span class="badge badge-info px-4 py-2 mt-3 float-right" style="border-radius: 0px">For Rent</span>
 					</div>
@@ -150,13 +172,15 @@
 						</p>
 					</div>
 				</div>
+			</div>
 
-				<div class="card card-listing col-md-4 p-0 mb-5 shadow" style="cursor: pointer" onclick="window.location='/jfmestates-dev/listings/sale-new-three-storey-house-in-alabang-sample/'">
+			<div class="col-lg-4 col-md-6 p-3 mx-0 mb-1">
+				<div class="card card-listing shadow" style="cursor: pointer" onclick="window.location='/jfmestates-dev/listings/sale-new-three-storey-house-in-alabang-sample/'">
 					<!-- Image -->
 					<img class="card-img-top" style="height: 250px" src="../res/img/bg1.jpg" alt="Card image">
 
 					<!-- Image overlay -->
-					<div class="card-img-overlay p-0">		
+					<div class="card-img-overlay pr-0 pt-2">		
 						<span class="badge badge-secondary px-4 py-2 mt-3 float-right" style="border-radius: 0px">Joint Venture</span>
 					</div>
 
@@ -172,13 +196,13 @@
 				</div>
 			</div>
 
-			<div class="row">
-				<div class="card card-listing col-md-4 p-0 mb-5 shadow" style="cursor: pointer" onclick="window.location='/jfmestates-dev/listings/sale-new-three-storey-house-in-alabang-sample/'">
+			<div class="col-lg-4 col-md-6 p-3 mx-0 mb-1">
+				<div class="card card-listing shadow" style="cursor: pointer" onclick="window.location='/jfmestates-dev/listings/sale-new-three-storey-house-in-alabang-sample/'">
 					<!-- Image -->
 					<img class="card-img-top" style="height: 250px" src="../res/img/bg3.jpg" alt="Card image">
 
 					<!-- Image overlay -->
-					<div class="card-img-overlay p-0">		
+					<div class="card-img-overlay pr-0 pt-2">		
 						<span class="badge badge-success px-4 py-2 mt-3 float-right" style="border-radius: 0px">For Sale</span>
 					</div>
 
@@ -192,13 +216,15 @@
 						</p>
 					</div>
 				</div>
+			</div>
 
-				<div class="card card-listing col-md-4 p-0 mb-5 shadow" style="cursor: pointer" onclick="window.location='/jfmestates-dev/listings/sale-new-three-storey-house-in-alabang-sample/'">
+			<div class="col-lg-4 col-md-6 p-3 mx-0 mb-1">
+				<div class="card card-listing shadow" style="cursor: pointer" onclick="window.location='/jfmestates-dev/listings/sale-new-three-storey-house-in-alabang-sample/'">
 					<!-- Image -->
 					<img class="card-img-top" style="height: 250px" src="../res/img/bg4.jpg" alt="Card image">
 
 					<!-- Image overlay -->
-					<div class="card-img-overlay p-0">		
+					<div class="card-img-overlay pr-0 pt-2">		
 						<span class="badge badge-info px-4 py-2 mt-3 float-right" style="border-radius: 0px">For Rent</span>
 					</div>
 
@@ -212,13 +238,15 @@
 						</p>
 					</div>
 				</div>
+			</div>
 
-				<div class="card card-listing col-md-4 p-0 mb-5 shadow" style="cursor: pointer" onclick="window.location='/jfmestates-dev/listings/sale-new-three-storey-house-in-alabang-sample/'">
+			<div class="col-lg-4 col-md-6 p-3 mx-0 mb-1">
+				<div class="card card-listing shadow" style="cursor: pointer" onclick="window.location='/jfmestates-dev/listings/sale-new-three-storey-house-in-alabang-sample/'">
 					<!-- Image -->
 					<img class="card-img-top" style="height: 250px" src="../res/img/h3.jpg" alt="Card image">
 
 					<!-- Image overlay -->
-					<div class="card-img-overlay p-0">		
+					<div class="card-img-overlay pr-0 pt-2">		
 						<span class="badge badge-success px-4 py-2 mt-3 float-right" style="border-radius: 0px">For Sale</span>
 					</div>
 
@@ -234,13 +262,13 @@
 				</div>
 			</div>
 
-			<div class="row">
-				<div class="card card-listing col-md-4 p-0 mb-5 shadow" style="cursor: pointer" onclick="window.location='/jfmestates-dev/listings/sale-new-three-storey-house-in-alabang-sample/'">
+			<div class="col-lg-4 col-md-6 p-3 mx-0 mb-1">
+				<div class="card card-listing shadow" style="cursor: pointer" onclick="window.location='/jfmestates-dev/listings/sale-new-three-storey-house-in-alabang-sample/'">
 					<!-- Image -->
 					<img class="card-img-top" style="height: 250px" src="../res/img/bg5.jpg" alt="Card image">
 
 					<!-- Image overlay -->
-					<div class="card-img-overlay p-0">		
+					<div class="card-img-overlay pr-0 pt-2">		
 						<span class="badge badge-success px-4 py-2 mt-3 float-right" style="border-radius: 0px">For Sale</span>
 					</div>
 
@@ -254,13 +282,15 @@
 						</p>
 					</div>
 				</div>
+			</div>
 
-				<div class="card card-listing col-md-4 p-0 mb-5 shadow" style="cursor: pointer" onclick="window.location='/jfmestates-dev/listings/sale-new-three-storey-house-in-alabang-sample/'">
+			<div class="col-lg-4 col-md-6 p-3 mx-0 mb-1">
+				<div class="card card-listing shadow" style="cursor: pointer" onclick="window.location='/jfmestates-dev/listings/sale-new-three-storey-house-in-alabang-sample/'">
 					<!-- Image -->
 					<img class="card-img-top" style="height: 250px" src="../res/img/bg2.jpg" alt="Card image">
 
 					<!-- Image overlay -->
-					<div class="card-img-overlay p-0">		
+					<div class="card-img-overlay pr-0 pt-2">		
 						<span class="badge badge-success px-4 py-2 mt-3 float-right" style="border-radius: 0px">For Sale</span>
 					</div>
 
@@ -274,13 +304,15 @@
 						</p>
 					</div>
 				</div>
+			</div>
 
-				<div class="card card-listing col-md-4 p-0 mb-5 shadow" style="cursor: pointer" onclick="window.location='/jfmestates-dev/listings/sale-new-three-storey-house-in-alabang-sample/'">
+			<div class="col-lg-4 col-md-6 p-3 mx-0 mb-1">
+				<div class="card card-listing shadow" style="cursor: pointer" onclick="window.location='/jfmestates-dev/listings/sale-new-three-storey-house-in-alabang-sample/'">
 					<!-- Image -->
 					<img class="card-img-top" style="height: 250px" src="../res/img/h4.jpg" alt="Card image">
 
 					<!-- Image overlay -->
-					<div class="card-img-overlay p-0">		
+					<div class="card-img-overlay pr-0 pt-2">		
 						<span class="badge badge-info px-4 py-2 mt-3 float-right" style="border-radius: 0px">For Rent</span>
 					</div>
 
@@ -295,10 +327,12 @@
 					</div>
 				</div>
 			</div>
+
 		</div>
+		<!-- </div> -->
 		<!-- .PROPERTY GRID -->
 
-		<div class="row mb-5">
+		<div class="row mt-5 mb-5">
 			<nav aria-label="..." class="d-flex mx-auto">
 				<ul class="pagination listing-pagination">
 					<li class="page-item disabled">

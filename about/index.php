@@ -15,11 +15,11 @@
 		<h1>About Us</h1>
 	</div>
 
-	<div class="container-fluid about-bg border-top " style="min-height: 400px;">
+	<div class="container-fluid about-bg bg-midnight border-bottom-0 border-top " style="min-height: 400px;">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-5"></div>
-				<div class="col-md-7 p-5 bg-white text-justify" style="height: 100%">
+				<div class="col-lg-5 col-md-3"></div>
+				<div class="col-lg-7 col-md-9 p-5 bg-white text-justify" style="height: 100%">
 					<h2>About us</h2>
 					<hr class="">
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum rerum eos deleniti corporis inventore libero, vitae adipisci qui tenetur dolorem alias ad veniam, voluptatum cupiditate quia accusamus. Omnis, ab, repudiandae.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum rerum eos deleniti corporis inventore libero, vitae adipisci qui tenetur dolorem alias ad veniam, voluptatum cupiditate quia accusamus. Eum rerum eos deleniti corporis inventore libero, vitae adipisci qui tenetur dolorem alias ad veniam, voluptatum cupiditate quia accusamus. Omnis, ab, repudiandae.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum rerum eos deleniti corporis inventore libero, vitae adipisci qui tenetur dolorem alias ad veniam, voluptatum cupiditate quia accusamus. Omnis, ab, repudiandae.</p>
@@ -29,7 +29,7 @@
 		</div>
 	</div>
 	
-	<div class="container-fluid bg-midnight">
+	<div class="container-fluid bg-midnight border-0">
 		<div class="container py-5" id="services">
 			<div class="row mb-5">
 				<div class="col-md-12 text-center text-white">
@@ -41,7 +41,7 @@
 					<div class="card border-0 bg-midnight text-light">
 						<center><img class="card-img-top" src="http://www.icons101.com/icon_png/size_512/id_76710/Settings_L.png" style="width: 50%; height: auto; border-radius: 50%;"></center>
 						<div class="card-body mt-3">
-							<h3>Sample Header</h3>
+							<h3 class="text-center">Sample Header</h3>
 							<p class="card-text text-justify">Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 						</div>
 					</div>
@@ -51,7 +51,7 @@
 					<div class="card border-0 bg-midnight text-light">
 						<center><img class="card-img-top " src="http://www.icons101.com/icon_png/size_512/id_76710/Settings_L.png" style="width: 50%; height: auto; border-radius: 50%;"></center>
 						<div class="card-body mt-3">
-							<h3>Sample Header</h3>
+							<h3 class="text-center">Sample Header</h3>
 							<p class="card-text text-justify">Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 						</div>
 					</div>
@@ -61,7 +61,7 @@
 					<div class="card border-0 bg-midnight text-light">
 						<center><img class="card-img-top " src="http://www.icons101.com/icon_png/size_512/id_76710/Settings_L.png" style="width: 50%; height: auto; border-radius: 50%;"></center>
 						<div class="card-body mt-3">
-							<h3>Sample Header</h3>
+							<h3 class="text-center">Sample Header</h3>
 							<p class="card-text text-justify">Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 						</div>
 					</div>

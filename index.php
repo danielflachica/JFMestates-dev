@@ -13,11 +13,7 @@
 		<?php require 'res/templates/nav-home.php'; ?>
 
 		<div class="container">
-			<div class="row text-center my-4">
-				<!-- <h1>Find the perfect property for you.</h1> -->
-			</div>
-
-			<div class="col-md-10 mx-auto" style="margin-top: 30vh">
+			<div class="col-md-10 mx-auto" style="margin-top: 22%">
 				<!-- Nav Tabs -->
 				<ul class="nav nav-tabs nav-justified">
 					<li class="nav-item">
@@ -125,7 +121,7 @@
 
 	<div class="container-fluid bg-midnight text-light">
 		<div class="container py-5">
-			<div class="row">
+			<div class="row pt-3 mb-5">
 				<div class="col-md-6 text-left px-0">
 					<h1>About Us</h1>
 				</div>
@@ -193,129 +189,139 @@
 		</div>
 
 		<!-- PROPERTY GRID -->
-		<div class="card-deck mt-3 mb-2">
-			<div class="row">
-				<div class="card card-listing col-md-4 p-0 mb-5 shadow" style="cursor: pointer" onclick="window.location='/jfmestates-dev/listings/sale-new-three-storey-house-in-alabang-sample/'">
-					<!-- Image -->
-					<img class="card-img-top" style="height: 250px" src="res/img/h1.jpg" alt="Card image">
+		<div class="card-deck mt-2 mb-2">
+			<div class="row mt-3 mb-5 listings">
+				<div class="col-lg-4 col-md-6 py-3 px-0 mx-0 mb-1">
+					<div class="card card-listing shadow" style="cursor: pointer" onclick="window.location='/jfmestates-dev/listings/sale-new-three-storey-house-in-alabang-sample/'">
+						<!-- Image -->
+						<img class="card-img-top" style="height: 250px" src="res/img/h1.jpg" alt="Card image">
 
-					<!-- Image overlay -->
-					<div class="card-img-overlay p-0">		
-						<span class="badge badge-light px-4 py-2 mt-3 float-right" style="border-radius: 0px"><b>NEW!</b></span>
-						<span class="badge badge-success px-4 py-2 mt-3 float-right" style="border-radius: 0px">For Sale</span>
-					</div>
+						<!-- Image overlay -->
+						<div class="card-img-overlay pr-0 pt-2">		
+							<span class="badge badge-light px-4 py-2 mt-3 float-right" style="border-radius: 0px"><b>NEW!</b></span>
+							<span class="badge badge-success px-4 py-2 mt-3 float-right" style="border-radius: 0px">For Sale</span>
+						</div>
 
-					<span class="badge badge bg-midnight text-light py-2" style="border-radius: 0px; font-size: 1rem">&#8369; 60,700,000</span>
-					<!-- Card Body -->
-					<div class="card-body bg-light p-3">
-						<h4 div="card-title" style="width:100%; height: 30px; overflow-x: hidden;">New Three-Storey House in Alabang</h4>
-						<p class="card-text text-muted" style="width:100%; height: 30px; overflow-x: hidden;">
-							<i class="fa fa-map-marker"></i>&nbsp;
-							Ayala Alabang Village, Muntinlupa City
-						</p>
-					</div>
-				</div>
-
-				<div class="card card-listing col-md-4 p-0 mb-5 shadow" style="cursor: pointer" onclick="window.location='/jfmestates-dev/listings/sale-new-three-storey-house-in-alabang-sample/'">
-					<!-- Image -->
-					<img class="card-img-top" style="height: 250px" src="res/img/h2.jpg" alt="Card image">
-
-					<!-- Image overlay -->
-					<div class="card-img-overlay p-0">		
-						<span class="badge badge-light px-4 py-2 mt-3 float-right" style="border-radius: 0px"><b>NEW!</b></span>
-						<span class="badge badge-info px-4 py-2 mt-3 float-right" style="border-radius: 0px">For Rent</span>
-					</div>
-
-					<span class="badge badge bg-midnight text-light py-2" style="border-radius: 0px; font-size: 1rem">&#8369; 60,700,000</span>
-					<!-- Card Body -->
-					<div class="card-body bg-light p-3">
-						<h4 div="card-title" style="width:100%; height: 30px; overflow-x: hidden;">New Three-Storey House in Alabang</h4>
-						<p class="card-text text-muted" style="width:100%; height: 30px; overflow-x: hidden;">
-							<i class="fa fa-map-marker"></i>&nbsp;
-							Ayala Alabang Village, Muntinlupa City
-						</p>
+						<span class="badge badge bg-midnight text-light py-2" style="border-radius: 0px; font-size: 1rem">&#8369; 60,700,000</span>
+						<!-- Card Body -->
+						<div class="card-body bg-light p-3">
+							<h4 div="card-title" style="width:100%; height: 30px; overflow-x: hidden;">New Three-Storey House in Alabang</h4>
+							<p class="card-text text-muted" style="width:100%; height: 30px; overflow-x: hidden;">
+								<i class="fa fa-map-marker"></i>&nbsp;
+								Ayala Alabang Village, Muntinlupa City
+							</p>
+						</div>
 					</div>
 				</div>
 
-				<div class="card card-listing col-md-4 p-0 mb-5 shadow" style="cursor: pointer" onclick="window.location='/jfmestates-dev/listings/sale-new-three-storey-house-in-alabang-sample/'">
-					<!-- Image -->
-					<img class="card-img-top" style="height: 250px" src="res/img/bg1.jpg" alt="Card image">
+				<div class="col-lg-4 col-md-6 py-3 px-0 mx-0 mb-1">
+					<div class="card card-listing shadow" style="cursor: pointer" onclick="window.location='/jfmestates-dev/listings/sale-new-three-storey-house-in-alabang-sample/'">
+						<!-- Image -->
+						<img class="card-img-top" style="height: 250px" src="res/img/h2.jpg" alt="Card image">
 
-					<!-- Image overlay -->
-					<div class="card-img-overlay p-0">		
-						<span class="badge badge-secondary px-4 py-2 mt-3 float-right" style="border-radius: 0px">Joint Venture</span>
-					</div>
+						<!-- Image overlay -->
+						<div class="card-img-overlay pr-0 pt-2">		
+							<span class="badge badge-light px-4 py-2 mt-3 float-right" style="border-radius: 0px"><b>NEW!</b></span>
+							<span class="badge badge-info px-4 py-2 mt-3 float-right" style="border-radius: 0px">For Rent</span>
+						</div>
 
-					<span class="badge badge bg-midnight text-light py-2" style="border-radius: 0px; font-size: 1rem">&#8369; 60,700,000</span>
-					<!-- Card Body -->
-					<div class="card-body bg-light p-3">
-						<h4 div="card-title" style="width:100%; height: 30px; overflow-x: hidden;">New Three-Storey House in Alabang</h4>
-						<p class="card-text text-muted" style="width:100%; height: 30px; overflow-x: hidden;">
-							<i class="fa fa-map-marker"></i>&nbsp;
-							Ayala Alabang Village, Muntinlupa City
-						</p>
-					</div>
-				</div>
-			</div>
-
-			<div class="row">
-				<div class="card card-listing col-md-4 p-0 mb-5 shadow" style="cursor: pointer" onclick="window.location='/jfmestates-dev/listings/sale-new-three-storey-house-in-alabang-sample/'">
-					<!-- Image -->
-					<img class="card-img-top" style="height: 250px" src="res/img/bg3.jpg" alt="Card image">
-
-					<!-- Image overlay -->
-					<div class="card-img-overlay p-0">		
-						<span class="badge badge-success px-4 py-2 mt-3 float-right" style="border-radius: 0px">For Sale</span>
-					</div>
-
-					<span class="badge badge bg-midnight text-light py-2" style="border-radius: 0px; font-size: 1rem">&#8369; 60,700,000</span>
-					<!-- Card Body -->
-					<div class="card-body bg-light p-3">
-						<h4 div="card-title" style="width:100%; height: 30px; overflow-x: hidden;">New Three-Storey House in Alabang</h4>
-						<p class="card-text text-muted" style="width:100%; height: 30px; overflow-x: hidden;">
-							<i class="fa fa-map-marker"></i>&nbsp;
-							Ayala Alabang Village, Muntinlupa City
-						</p>
+						<span class="badge badge bg-midnight text-light py-2" style="border-radius: 0px; font-size: 1rem">&#8369; 60,700,000</span>
+						<!-- Card Body -->
+						<div class="card-body bg-light p-3">
+							<h4 div="card-title" style="width:100%; height: 30px; overflow-x: hidden;">New Three-Storey House in Alabang</h4>
+							<p class="card-text text-muted" style="width:100%; height: 30px; overflow-x: hidden;">
+								<i class="fa fa-map-marker"></i>&nbsp;
+								Ayala Alabang Village, Muntinlupa City
+							</p>
+						</div>
 					</div>
 				</div>
 
-				<div class="card card-listing col-md-4 p-0 mb-5 shadow" style="cursor: pointer" onclick="window.location='/jfmestates-dev/listings/sale-new-three-storey-house-in-alabang-sample/'">
-					<!-- Image -->
-					<img class="card-img-top" style="height: 250px" src="res/img/bg4.jpg" alt="Card image">
+				<div class="col-lg-4 col-md-6 py-3 px-0 mx-0 mb-1">
+					<div class="card card-listing shadow" style="cursor: pointer" onclick="window.location='/jfmestates-dev/listings/sale-new-three-storey-house-in-alabang-sample/'">
+						<!-- Image -->
+						<img class="card-img-top" style="height: 250px" src="res/img/bg1.jpg" alt="Card image">
 
-					<!-- Image overlay -->
-					<div class="card-img-overlay p-0">		
-						<span class="badge badge-info px-4 py-2 mt-3 float-right" style="border-radius: 0px">For Rent</span>
-					</div>
+						<!-- Image overlay -->
+						<div class="card-img-overlay pr-0 pt-2">		
+							<span class="badge badge-secondary px-4 py-2 mt-3 float-right" style="border-radius: 0px">Joint Venture</span>
+						</div>
 
-					<span class="badge badge bg-midnight text-light py-2" style="border-radius: 0px; font-size: 1rem">&#8369; 60,700,000</span>
-					<!-- Card Body -->
-					<div class="card-body bg-light p-3">
-						<h4 div="card-title" style="width:100%; height: 30px; overflow-x: hidden;">New Three-Storey House in Alabang</h4>
-						<p class="card-text text-muted" style="width:100%; height: 30px; overflow-x: hidden;">
-							<i class="fa fa-map-marker"></i>&nbsp;
-							Ayala Alabang Village, Muntinlupa City
-						</p>
+						<span class="badge badge bg-midnight text-light py-2" style="border-radius: 0px; font-size: 1rem">&#8369; 60,700,000</span>
+						<!-- Card Body -->
+						<div class="card-body bg-light p-3">
+							<h4 div="card-title" style="width:100%; height: 30px; overflow-x: hidden;">New Three-Storey House in Alabang</h4>
+							<p class="card-text text-muted" style="width:100%; height: 30px; overflow-x: hidden;">
+								<i class="fa fa-map-marker"></i>&nbsp;
+								Ayala Alabang Village, Muntinlupa City
+							</p>
+						</div>
 					</div>
 				</div>
 
-				<div class="card card-listing col-md-4 p-0 mb-5 shadow" style="cursor: pointer" onclick="window.location='/jfmestates-dev/listings/sale-new-three-storey-house-in-alabang-sample/'">
-					<!-- Image -->
-					<img class="card-img-top" style="height: 250px" src="res/img/h3.jpg" alt="Card image">
+				<div class="col-lg-4 col-md-6 py-3 px-0 mx-0 mb-1">
+					<div class="card card-listing shadow" style="cursor: pointer" onclick="window.location='/jfmestates-dev/listings/sale-new-three-storey-house-in-alabang-sample/'">
+						<!-- Image -->
+						<img class="card-img-top" style="height: 250px" src="res/img/bg3.jpg" alt="Card image">
 
-					<!-- Image overlay -->
-					<div class="card-img-overlay p-0">		
-						<span class="badge badge-success px-4 py-2 mt-3 float-right" style="border-radius: 0px">For Sale</span>
+						<!-- Image overlay -->
+						<div class="card-img-overlay pr-0 pt-2">		
+							<span class="badge badge-success px-4 py-2 mt-3 float-right" style="border-radius: 0px">For Sale</span>
+						</div>
+
+						<span class="badge badge bg-midnight text-light py-2" style="border-radius: 0px; font-size: 1rem">&#8369; 60,700,000</span>
+						<!-- Card Body -->
+						<div class="card-body bg-light p-3">
+							<h4 div="card-title" style="width:100%; height: 30px; overflow-x: hidden;">New Three-Storey House in Alabang</h4>
+							<p class="card-text text-muted" style="width:100%; height: 30px; overflow-x: hidden;">
+								<i class="fa fa-map-marker"></i>&nbsp;
+								Ayala Alabang Village, Muntinlupa City
+							</p>
+						</div>
 					</div>
+				</div>
 
-					<span class="badge badge bg-midnight text-light py-2" style="border-radius: 0px; font-size: 1rem">&#8369; 60,700,000</span>
-					<!-- Card Body -->
-					<div class="card-body bg-light p-3">
-						<h4 div="card-title" style="width:100%; height: 30px; overflow-x: hidden;">New Three-Storey House in Alabang</h4>
-						<p class="card-text text-muted" style="width:100%; height: 30px; overflow-x: hidden;">
-							<i class="fa fa-map-marker"></i>&nbsp;
-							Ayala Alabang Village, Muntinlupa City
-						</p>
+				<div class="col-lg-4 col-md-6 py-3 px-0 mx-0 mb-1">
+					<div class="card card-listing shadow" style="cursor: pointer" onclick="window.location='/jfmestates-dev/listings/sale-new-three-storey-house-in-alabang-sample/'">
+						<!-- Image -->
+						<img class="card-img-top" style="height: 250px" src="res/img/bg4.jpg" alt="Card image">
+
+						<!-- Image overlay -->
+						<div class="card-img-overlay pr-0 pt-2">		
+							<span class="badge badge-info px-4 py-2 mt-3 float-right" style="border-radius: 0px">For Rent</span>
+						</div>
+
+						<span class="badge badge bg-midnight text-light py-2" style="border-radius: 0px; font-size: 1rem">&#8369; 60,700,000</span>
+						<!-- Card Body -->
+						<div class="card-body bg-light p-3">
+							<h4 div="card-title" style="width:100%; height: 30px; overflow-x: hidden;">New Three-Storey House in Alabang</h4>
+							<p class="card-text text-muted" style="width:100%; height: 30px; overflow-x: hidden;">
+								<i class="fa fa-map-marker"></i>&nbsp;
+								Ayala Alabang Village, Muntinlupa City
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 py-3 px-0 mx-0 mb-1">
+					<div class="card card-listing shadow" style="cursor: pointer" onclick="window.location='/jfmestates-dev/listings/sale-new-three-storey-house-in-alabang-sample/'">
+						<!-- Image -->
+						<img class="card-img-top" style="height: 250px" src="res/img/h3.jpg" alt="Card image">
+
+						<!-- Image overlay -->
+						<div class="card-img-overlay pr-0 pt-2">		
+							<span class="badge badge-success px-4 py-2 mt-3 float-right" style="border-radius: 0px">For Sale</span>
+						</div>
+
+						<span class="badge badge bg-midnight text-light py-2" style="border-radius: 0px; font-size: 1rem">&#8369; 60,700,000</span>
+						<!-- Card Body -->
+						<div class="card-body bg-light p-3">
+							<h4 div="card-title" style="width:100%; height: 30px; overflow-x: hidden;">New Three-Storey House in Alabang</h4>
+							<p class="card-text text-muted" style="width:100%; height: 30px; overflow-x: hidden;">
+								<i class="fa fa-map-marker"></i>&nbsp;
+								Ayala Alabang Village, Muntinlupa City
+							</p>
+						</div>
 					</div>
 				</div>
 			</div>
