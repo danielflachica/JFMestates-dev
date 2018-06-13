@@ -13,11 +13,12 @@
 		.slider-img-group > .row {
 		  overflow-x: auto;
 		  white-space: nowrap;
+		  /*margin-top: 1vh;*/
 		}
 		.slider-img-group > .row > .col-sm-4 {
 		  display: inline-block;
 		  float: none;
-		  height: 170px;
+		  height: 16.5vh;
 		  width: 150px;
 		}
 		.slider-img-group > .row > .col-sm-4 > img, video {
@@ -50,6 +51,23 @@
 				.carousel-inner video{
 				  height: 30px !important;
 				}
+		}
+
+		@media screen and (max-width: 1024px) {
+			.slider-img-lg {
+				display: none !important;
+			}
+			.slider-img-sm {
+				display: block !important;
+			}
+		}
+		@media screen and (min-width: 1024px) {
+			.slider-img-lg {
+				display: block !important;
+			}
+			.slider-img-sm {
+				display: none !important;
+			}
 		}
 
 			.intl-tel-input {
@@ -90,16 +108,16 @@
 	</div>
 	
 	<!-- Carousel -->
-	<div class="container-fluid mt-4 bg-midnight" style="min-height: 400px;">
+	<div class="container-fluid mt-4 bg-midnight slider-img-lg" style="min-height: 400px;">
 		<div class="container">
 			<div class="row px-3">
-				<div class="col-md-1">
+				<div class="col-lg-1" style="min-height: 80px">
 					<a class="carousel-control-prev w-100" style="background-color: rgba(0,0,0,1);" href="#carouselExampleControls" role="button" data-slide="prev">
 						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 						<span class="sr-only">Previous</span>
 					</a>
 				</div>
-				<div class="col-md-10 px-0">
+				<div class="col-lg-10 px-0">
 					<div id="carouselExampleControls" class="carousel slide" data-interval="3000" data-ride="carousel">
 						<!-- Indicators -->
 						<!-- <ol class="carousel-indicators">
@@ -167,11 +185,37 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-1">
+				<div class="col-lg-1" style="min-height: 80px">
 					<a class="carousel-control-next w-100" style="background-color: rgba(0,0,0,1);" href="#carouselExampleControls" role="button" data-slide="next">
 						<span class="carousel-control-next-icon" aria-hidden="true"></span>
 						<span class="sr-only">Next</span>
 					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid bg-midnight slider-img-sm">
+		<div class="container">
+			<div class="pre-scrollable" style="max-height: 80vh">
+				<div class="row py-3 px-5">
+					<div class="col-lg-4 my-3">
+						<img class="img-fluid"  style="width: 100%; height: 220px; cursor: pointer" src="../../res/img/h1.jpg">
+					</div>
+					<div class="col-lg-4 my-3">
+						<img class="img-fluid"  style="width: 100%; height: 220px; cursor: pointer" src="../../res/img/h2.jpg">
+					</div>
+					<div class="col-lg-4 my-3">
+						<img class="img-fluid"  style="width: 100%; height: 220px; cursor: pointer" src="../../res/img/h3.jpg">
+					</div>
+					<div class="col-lg-4 my-3">
+						<img class="img-fluid"  style="width: 100%; height: 220px; cursor: pointer" src="../../res/img/h4.jpg">
+					</div>
+					<div class="col-lg-4 my-3">
+						<video style="width: 100%; height: 220px; cursor: pointer">
+							<source src="../../res/vids/housetour.mp4" type="video/mp4" controls>
+						</video>
+					</div>
 				</div>
 			</div>
 		</div>

@@ -118,14 +118,15 @@
 		</div>
 	</div>	
 
+	<!-- ABOUT US -->
 	<div class="container-fluid bg-midnight text-light">
 		<div class="container py-5">
-			<div class="row pt-3 mb-5">
+			<div class="row pt-3 px-3 mb-5">
 				<div class="col-md-6 text-left px-0">
 					<h1>About Us</h1>
 				</div>
 
-				<div class="col-md-6 text-right px-0 pt-1">
+				<div class="col-md-6 text-right px-3 pt-1">
 					<a class="btn btn-outline-info" href="/jfmestates-dev/about">
 						Read More&nbsp;
 						<small><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i></small>
@@ -137,8 +138,8 @@
 				<div class="col-md-4 mb-4 px-5">
 					<img class="img-fluid" src="res/img/jen.jpg" style="border-radius: 50%; border: 3px solid #B2EBF2;">
 				</div>
-				<div class="col-md-8 text-justify">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum rerum eos deleniti corporis inventore libero, vitae adipisci qui tenetur dolorem alias ad veniam, voluptatum cupiditate quia accusamus. Omnis, ab, repudiandae.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum rerum eos deleniti corporis inventore libero, vitae adipisci qui tenetur dolorem alias ad veniam, voluptatum cupiditate quia accusamus. Omnis, ab, repudiandae.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum rerum eos deleniti corporis inventore libero, vitae adipisci qui tenetur dolorem alias ad veniam, voluptatum cupiditate quia accusamus. Omnis, ab, repudiandae.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum rerum eos deleniti corporis inventore libero, vitae adipisci qui tenetur dolorem alias ad veniam, voluptatum cupiditate quia accusamus. Omnis, ab, repudiandae.</p>
+				<div class="col-md-8 text-justify px-3 px-lg-5">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum rerum eos deleniti corporis inventore libero, vitae adipisci qui tenetur dolorem alias ad veniam, voluptatum cupiditate quia accusamus. Omnis, ab, repudiandae.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum rerum eos deleniti corporis inventore libero, vitae adipisci qui tenetur dolorem alias ad veniam, voluptatum cupiditate quia accusamus. Omnis, ab, repudiandae.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum rerum eos deleniti corporis inventore libero, vitae adipisci qui tenetur dolorem alias ad veniam.</p>
 				</div>
 			</div>
 
@@ -173,13 +174,14 @@
 		</div>
 	</div>
 
-	<div class="container pt-5 pb-3">
-		<div class="row">
-			<div class="col-md-6 text-left px-0">
+	<!-- LISTINGS -->
+	<div class="container pt-5 pb-3 px-2">
+		<div class="row px-2">
+			<div class="col-md-6 text-left">
 				<h1>Featured Listings</h1>
 			</div>
 
-			<div class="col-md-6 text-right px-0 pt-1">
+			<div class="col-md-6 text-right pt-1">
 				<a class="btn btn-outline-info" href="/jfmestates-dev/listings">
 					View All Listings&nbsp;
 					<small><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i></small>
@@ -188,8 +190,8 @@
 		</div>
 
 		<!-- PROPERTY GRID -->
-		<div class="card-deck mt-2 mb-2">
-			<div class="row mt-3 mb-5 listings">
+		<div class="card-deck mt-2 mb-2 px-0">
+			<div class="row mt-3 mb-5 listings mx-3 mx-lg-2 px-0">
 				<div class="col-lg-4 col-md-6 py-3 px-0 mx-0 mb-1">
 					<div class="card card-listing shadow" style="cursor: pointer" onclick="window.location='/jfmestates-dev/listings/sale-new-three-storey-house-in-alabang-sample/'">
 						<!-- Image -->
@@ -331,11 +333,11 @@
 	<div class="container-fluid mb-0 mt-0 bg-midnight text-white">
 		<div class="container py-4">
 			<div class="row">
-				<div class="col-md-6 text-left px-0">
+				<div class="col-md-6 text-left px-3">
 					<h1>Location Map</h1>
 				</div>
 
-				<div class="col-md-6 text-right px-0 pt-1">
+				<div class="col-md-6 text-right position-relative px-3 pt-1">
 					<a class="btn btn-outline-info" href="/jfmestates-dev/contact">
 						Contact Details&nbsp;
 						<small><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i></small>

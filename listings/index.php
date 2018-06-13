@@ -128,7 +128,7 @@
 		<!-- PROPERTY GRID -->
 		<!-- <div class=" mt-3 mb-3"> -->
 		<div class="row my-3 listings">
-			<div class="col-lg-4 col-md-6 p-3 mx-0 mb-1">
+			<div class="col-lg-4 col-md-6 p-3 mx-3 mx-lg-0 mx-md-0 mb-1">
 				<div class="card card-listing shadow" style="cursor: pointer" onclick="window.location='/jfmestates-dev/listings/sale-new-three-storey-house-in-alabang-sample/'">
 					<!-- Image -->
 					<img class="card-img-top" style="height: 250px" src="../res/img/h1.jpg" alt="Card image">
@@ -151,7 +151,7 @@
 				</div>
 			</div>
 
-			<div class="col-lg-4 col-md-6 p-3 mx-0 mb-1">
+			<div class="col-lg-4 col-md-6 p-3 mx-3 mx-lg-0 mx-md-0 mb-1">
 				<div class="card card-listing shadow" style="cursor: pointer" onclick="window.location='/jfmestates-dev/listings/sale-new-three-storey-house-in-alabang-sample/'">
 					<!-- Image -->
 					<img class="card-img-top" style="height: 250px" src="../res/img/h2.jpg" alt="Card image">
@@ -174,7 +174,7 @@
 				</div>
 			</div>
 
-			<div class="col-lg-4 col-md-6 p-3 mx-0 mb-1">
+			<div class="col-lg-4 col-md-6 p-3 mx-3 mx-lg-0 mx-md-0 mb-1">
 				<div class="card card-listing shadow" style="cursor: pointer" onclick="window.location='/jfmestates-dev/listings/sale-new-three-storey-house-in-alabang-sample/'">
 					<!-- Image -->
 					<img class="card-img-top" style="height: 250px" src="../res/img/bg1.jpg" alt="Card image">
@@ -196,7 +196,7 @@
 				</div>
 			</div>
 
-			<div class="col-lg-4 col-md-6 p-3 mx-0 mb-1">
+			<div class="col-lg-4 col-md-6 p-3 mx-3 mx-lg-0 mx-md-0 mb-1">
 				<div class="card card-listing shadow" style="cursor: pointer" onclick="window.location='/jfmestates-dev/listings/sale-new-three-storey-house-in-alabang-sample/'">
 					<!-- Image -->
 					<img class="card-img-top" style="height: 250px" src="../res/img/bg3.jpg" alt="Card image">
@@ -218,7 +218,7 @@
 				</div>
 			</div>
 
-			<div class="col-lg-4 col-md-6 p-3 mx-0 mb-1">
+			<div class="col-lg-4 col-md-6 p-3 mx-3 mx-lg-0 mx-md-0 mb-1">
 				<div class="card card-listing shadow" style="cursor: pointer" onclick="window.location='/jfmestates-dev/listings/sale-new-three-storey-house-in-alabang-sample/'">
 					<!-- Image -->
 					<img class="card-img-top" style="height: 250px" src="../res/img/bg4.jpg" alt="Card image">
@@ -240,7 +240,7 @@
 				</div>
 			</div>
 
-			<div class="col-lg-4 col-md-6 p-3 mx-0 mb-1">
+			<div class="col-lg-4 col-md-6 p-3 mx-3 mx-lg-0 mx-md-0 mb-1">
 				<div class="card card-listing shadow" style="cursor: pointer" onclick="window.location='/jfmestates-dev/listings/sale-new-three-storey-house-in-alabang-sample/'">
 					<!-- Image -->
 					<img class="card-img-top" style="height: 250px" src="../res/img/h3.jpg" alt="Card image">
@@ -262,7 +262,7 @@
 				</div>
 			</div>
 
-			<div class="col-lg-4 col-md-6 p-3 mx-0 mb-1">
+			<div class="col-lg-4 col-md-6 p-3 mx-3 mx-lg-0 mx-md-0 mb-1">
 				<div class="card card-listing shadow" style="cursor: pointer" onclick="window.location='/jfmestates-dev/listings/sale-new-three-storey-house-in-alabang-sample/'">
 					<!-- Image -->
 					<img class="card-img-top" style="height: 250px" src="../res/img/bg5.jpg" alt="Card image">
@@ -284,7 +284,7 @@
 				</div>
 			</div>
 
-			<div class="col-lg-4 col-md-6 p-3 mx-0 mb-1">
+			<div class="col-lg-4 col-md-6 p-3 mx-3 mx-lg-0 mx-md-0 mb-1">
 				<div class="card card-listing shadow" style="cursor: pointer" onclick="window.location='/jfmestates-dev/listings/sale-new-three-storey-house-in-alabang-sample/'">
 					<!-- Image -->
 					<img class="card-img-top" style="height: 250px" src="../res/img/bg2.jpg" alt="Card image">
@@ -306,7 +306,7 @@
 				</div>
 			</div>
 
-			<div class="col-lg-4 col-md-6 p-3 mx-0 mb-1">
+			<div class="col-lg-4 col-md-6 p-3 mx-3 mx-lg-0 mx-md-0 mb-1">
 				<div class="card card-listing shadow" style="cursor: pointer" onclick="window.location='/jfmestates-dev/listings/sale-new-three-storey-house-in-alabang-sample/'">
 					<!-- Image -->
 					<img class="card-img-top" style="height: 250px" src="../res/img/h4.jpg" alt="Card image">
