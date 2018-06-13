@@ -115,7 +115,7 @@
 	<!-- .FILTERS -->
 
 	<div class="container">
-		<div class="col-md-12 mb-4">
+		<div class="col-md-12 pt-3 mb-4">
 			<h4 class="text-center">
 				<i class="fa fa-chevron-left text-info"></i>
 				&nbsp;52 results found&nbsp;
