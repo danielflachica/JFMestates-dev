@@ -22,9 +22,6 @@
 					<li class="nav-item">
 						<a class="nav-link text-info " data-toggle="tab" href="#rent"><h4 class="pt-2">Rent</h4></a>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link text-info " data-toggle="tab" href="#joint-venture"><h4 class="pt-2">Joint Venture</h4></a>
-					</li>
 				</ul>
 
 				<!-- Tab panes -->
@@ -85,33 +82,6 @@
 						</form>
 					</div>
 
-					<div class="tab-pane container p-3" id="joint-venture">
-						<form method="POST" action="/jfmestates-dev/listings" class="shadow-sm">
-							<input type="text" value="both" style="display: none">
-							
-							<div class="input-group input-group-lg mb-0">
-								<div class="input-group-prepend">
-									<span class="input-group-text py-0 px-2 prop-dropdown">
-										<select class="form-control" style="background: #e9ecef; border: none;" id="sel1">
-											<option selected disabled>PROPERTY TYPE</option>
-											<option disabled>----------------------</option>
-											<option value="residencial">Residencial</option>
-											<option value="commercial">Commercial</option>
-											<option value="industrial">Industrial</option>
-										</select>
-									</span>
-								</div>
-
-								<input type="text" class="form-control text-uppercase prop-search" placeholder="&#xf041;  Enter a location" aria-label="Search for Properties" aria-describedby="searchAddon">
-
-								<div class="input-group-append">
-									<button type="submit" class="btn btn-info">
-										<i class="fa fa-search pr-3"></i>Search
-									</button>
-								</div>
-							</div>
-						</form>
-					</div>
 				</div>
 
 			</div>
