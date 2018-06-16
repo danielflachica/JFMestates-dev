@@ -302,7 +302,7 @@
 			</div>
 
 			<!-- RIGHT COL -->
-			<div class="col-lg-5 offset-lg-1 px-md-5">
+			<div class="col-lg-5 offset-lg-1">
 				<div class="shadow-sm mb-5">
 					<div class="bg-info text-light p-4 pb-0">
 						<h2 class="pt-1">Contact Seller</h2>
