@@ -54,7 +54,6 @@
 								<option disabled>----------------------</option>
 								<option value="buy">Buy</option>
 								<option value="rent">Rent</option>
-								<option value="joint-venture">Joint Venture</option>
 							</select>
 						</span>
 
