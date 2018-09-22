@@ -1,12 +1,12 @@
 /*** PRIMARY BACKGROUND ***/
-.bg-primary{background-color:#007bff!important}
+.bg-primary{background-color:#028090!important}
 a.bg-primary:focus,
 a.bg-primary:hover,
 button.bg-primary:focus,
 button.bg-primary:hover{background-color:#0062cc!important}
 
 /*** SECONDARY BACKGROUND ***/
-.bg-secondary{background-color:#6c757d!important}
+.bg-secondary{background-color:#02C39A!important}
 a.bg-secondary:focus,
 a.bg-secondary:hover,
 button.bg-secondary:focus,
@@ -20,7 +20,7 @@ button.bg-success:focus,
 button.bg-success:hover{background-color:#1e7e34!important}
 
 /*** INFO (MAIN) BACKGROUND ***/
-.bg-info{background-color:#17a2b8!important}
+.bg-info{background-color:#00A896!important}
 a.bg-info:focus,
 a.bg-info:hover,
 button.bg-info:focus,
@@ -56,7 +56,7 @@ button.bg-dark:hover{background-color:#1d2124!important}
 
 /*** CUSTOM MAIN BACKGROUND ***/
 .bg-midnight {
-	background-color: #263238;
+	background-color: #05668D;
 }
 .bg-midnight-fade {
 	/*background-color: rgba(38,50,56,1);*/
