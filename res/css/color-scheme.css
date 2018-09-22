@@ -1,5 +1,5 @@
 /*** PRIMARY BACKGROUND ***/
-.bg-primary{background-color:#007bff!important}
+.bg-primary{background-color:#8DCFF4!important}
 a.bg-primary:focus,
 a.bg-primary:hover,
 button.bg-primary:focus,
@@ -20,7 +20,7 @@ button.bg-success:focus,
 button.bg-success:hover{background-color:#1e7e34!important}
 
 /*** INFO (MAIN) BACKGROUND ***/
-.bg-info{background-color:#17a2b8!important}
+.bg-info{background-color:#8DDCA4!important}
 a.bg-info:focus,
 a.bg-info:hover,
 button.bg-info:focus,
@@ -41,14 +41,14 @@ button.bg-danger:focus,
 button.bg-danger:hover{background-color:#bd2130!important}
 
 /*** LIGHT BACKGROUND ***/
-.bg-light{background-color:#f8f9fa!important}
+.bg-light{background-color:#E8E9EB!important}
 a.bg-light:focus,
 a.bg-light:hover,
 button.bg-light:focus,
 button.bg-light:hover{background-color:#dae0e5!important}
 
 /*** DARK BACKGROUND ***/
-.bg-dark{background-color:#343a40!important}
+.bg-dark{background-color:#0A100D!important}
 a.bg-dark:focus,
 a.bg-dark:hover,
 button.bg-dark:focus,
@@ -56,7 +56,7 @@ button.bg-dark:hover{background-color:#1d2124!important}
 
 /*** CUSTOM MAIN BACKGROUND ***/
 .bg-midnight {
-	background-color: #263238;
+	background-color: #1B2A41;
 }
 .bg-midnight-fade {
 	/*background-color: rgba(38,50,56,1);*/
