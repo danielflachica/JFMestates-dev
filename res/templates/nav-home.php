@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-sm bg-light navbar-light nav-home shadow-sm" id="nav-home">
+<nav class="navbar navbar-expand-sm navbar-light nav-home shadow-sm" id="nav-home">
 		<div class="container">
 			<!-- Brand Logos -->
 			<a class="navbar-brand" href="/jfmestates-dev">

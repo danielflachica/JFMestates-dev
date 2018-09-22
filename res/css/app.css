@@ -37,14 +37,25 @@ html, body {
 #scroll-top-btn {
 	display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
-    bottom: 50px; /* Place the button at the bottom of the page */
-    right: 30px; /* Place the button 30px from the right */
+    bottom: 0px; /* Place the button at the bottom of the page */
+    right: 50px; /* Place the button 30px from the right */
     z-index: 99; /* Make sure it does not overlap */
+    height: 55px;
+    width: 60px;
    
     cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 15px; /* Some padding */
-    border-radius: 10px; /* Rounded corners */
+    padding: 0px; /* Some padding */
+    border-radius: 0px; /* Rounded corners */
     font-size: 18px; /* Increase font size */
+
+    background-color: #121515;
+    color: #ffffff;
+    opacity: 0.4;
+}
+
+#scroll-top-btn:hover {
+	opacity: 1;
+	transition: 0.2s linear;
 }
 
 .cursor {
@@ -69,23 +80,6 @@ html, body {
 	text-decoration: underline;
 }
 
-
-.bg-midnight {
-	background-color: #263238;
-}
-.btn-midnight {
-	background-color: #263238;
-}
-.btn-midnight:hover{
-	background-color: #182430;
-}
-.bg-midnight-fade {
-	/*background-color: rgba(38,50,56,1);*/
-	background-color: #263238;
-}
-.bg-white {
-	background-color: #fff;
-}
 
 .prop-search {
 	border: none;

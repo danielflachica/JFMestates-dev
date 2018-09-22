@@ -322,7 +322,7 @@
 
 	<?php include 'res/templates/footer-home.php'; ?>
 
-	<button class="btn btn-outline-info bg-light shadow" id="scroll-top-btn" onclick="topFunction()" data-toggle="tooltip" data-placement="left" title="Back to Top" style="height: 70px; width: 70px; border-radius: 50%;">
+	<button class="btn shadow" id="scroll-top-btn" onclick="topFunction()" data-toggle="tooltip" data-placement="left" title="Back to Top">
 		<!-- <img src="res/img/up.png" height="18px" width="25px"> -->
 		<i class="fa fa-angle-double-up fa-2x"></i>
 	</button>

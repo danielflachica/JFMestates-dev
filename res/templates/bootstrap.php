@@ -9,6 +9,7 @@
 	<!-- Core Bootstrap CSS -->
 	<link rel="stylesheet" href="../res/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="../res/css/app.css">
+	<link rel="stylesheet" href="../res/css/color-scheme.css">
 
 	<!-- Font-awesome -->
 	<!-- <link rel="stylesheet" href="../res/font-awesome/web-fonts-with-css/css/fontawesome-all.min.css"> -->
